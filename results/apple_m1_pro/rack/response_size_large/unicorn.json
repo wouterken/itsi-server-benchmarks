@@ -1,0 +1,317 @@
+[
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 31.66,
+    "results": {
+      "successRate": 0.0,
+      "total": 5.82,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 6239,
+        "timeout": 10
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:27:52Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 31.66,
+    "results": {
+      "successRate": 0.0,
+      "total": 5.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 13,
+        "timeout": 50
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:27:57Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 31.66,
+    "results": {
+      "successRate": 0.0,
+      "total": 5.02,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 33,
+        "timeout": 100
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:28:03Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 31.66,
+    "results": {
+      "successRate": 0.0,
+      "total": 5.03,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 74,
+        "timeout": 250
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:28:08Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 6.91,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 10938,
+        "timeout": 10
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:28:19Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 5.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 24,
+        "timeout": 50
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:28:24Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 5.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 24,
+        "timeout": 100
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:28:30Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 5.02,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 101,
+        "timeout": 250
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:28:36Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.63,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 8589
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:28:43Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 6.55,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 6195,
+        "timeout": 50
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:28:50Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 5.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 32,
+        "timeout": 100
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:28:56Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "response_size_large",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 5.02,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection closed before message completed": 93,
+        "timeout": 250
+      },
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T13:29:01Z"
+  }
+]

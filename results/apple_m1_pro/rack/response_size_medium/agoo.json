@@ -1,0 +1,288 @@
+[
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 144.38,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.02,
+      "slowest": 0.1,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 4996.33,
+      "totalData": 7560451600,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 2507131140.88,
+      "errorDistribution": {},
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T14:43:05Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 163.28,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 12009.0,
+      "totalData": 18172018800,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 6039990984.23,
+      "errorDistribution": {},
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-28T14:43:08Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 247.2,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.11,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 15477.33,
+      "totalData": 23420300800,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 7782616824.77,
+      "errorDistribution": {},
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-28T14:43:11Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 441.3,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.02,
+      "slowest": 0.12,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 20733.33,
+      "totalData": 31373680000,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 10387270571.56,
+      "errorDistribution": {
+        "connection error": 120
+      },
+      "p95_latency": 0.03
+    },
+    "timestamp": "2025-05-28T14:43:15Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.1,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 16586.33,
+      "totalData": 25098439600,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 8357189367.41,
+      "errorDistribution": {},
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T14:43:22Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.11,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 17608.67,
+      "totalData": 26645434400,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 8862759856.51,
+      "errorDistribution": {},
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T14:43:25Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.03,
+      "slowest": 0.11,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 17200.33,
+      "totalData": 26027544400,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 8586054225.19,
+      "errorDistribution": {},
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-28T14:43:29Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.07,
+      "slowest": 0.13,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 16638.67,
+      "totalData": 25177630400,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 8196405307.27,
+      "errorDistribution": {
+        "connection error": 119
+      },
+      "p95_latency": 0.03
+    },
+    "timestamp": "2025-05-28T14:43:32Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.03,
+      "slowest": 0.1,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 18876.33,
+      "totalData": 28563667600,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 9436947057.26,
+      "errorDistribution": {},
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T14:43:39Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.1,
+      "slowest": 0.13,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 23415.0,
+      "totalData": 35431578000,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 11426477796.34,
+      "errorDistribution": {},
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T14:43:43Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.09,
+      "slowest": 0.16,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 23166.67,
+      "totalData": 35055800000,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 11341227843.5,
+      "errorDistribution": {},
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-28T14:43:46Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "response_size_medium",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.09,
+      "slowest": 0.16,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 21328.33,
+      "totalData": 32274034000,
+      "sizePerRequest": 504400.0,
+      "sizePerSec": 10430221907.21,
+      "errorDistribution": {
+        "connection error": 121
+      },
+      "p95_latency": 0.1
+    },
+    "timestamp": "2025-05-28T14:43:49Z"
+  }
+]

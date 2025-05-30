@@ -1,0 +1,407 @@
+[
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 32,
+    "rss_mb": 32.0,
+    "results": {
+      "successRate": 1.0,
+      "total": 7.01,
+      "slowest": 0.09,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 3396.67,
+      "totalData": 1294130,
+      "sizePerRequest": 127,
+      "sizePerSec": 184669.0,
+      "errorDistribution": {
+        "timeout": 32
+      },
+      "grossRequestsPerSec": 1458.65,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-30T02:08:23Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 64,
+    "rss_mb": 32.0,
+    "results": {
+      "successRate": 0.52,
+      "total": 5.02,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 23.0,
+      "totalData": 8763,
+      "sizePerRequest": 127,
+      "sizePerSec": 1745.83,
+      "errorDistribution": {
+        "timeout": 64
+      },
+      "grossRequestsPerSec": 26.5,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-30T02:08:28Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 128,
+    "rss_mb": 32.0,
+    "results": {
+      "successRate": 0.44,
+      "total": 5.03,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 34.0,
+      "totalData": 12954,
+      "sizePerRequest": 127,
+      "sizePerSec": 2577.02,
+      "errorDistribution": {
+        "timeout": 128
+      },
+      "grossRequestsPerSec": 45.76,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-30T02:08:33Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 256,
+    "rss_mb": 32.0,
+    "results": {
+      "successRate": 0.03,
+      "total": 5.03,
+      "slowest": 3.0,
+      "fastest": 0.02,
+      "average": 2.66,
+      "requestsPerSec": 44.67,
+      "totalData": 17018,
+      "sizePerRequest": 127,
+      "sizePerSec": 3384.56,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 4656,
+        "connection error": 2,
+        "timeout": 130
+      },
+      "grossRequestsPerSec": 978.89,
+      "p95_latency": 3.0
+    },
+    "timestamp": "2025-05-30T02:08:38Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 512,
+    "rss_mb": 32.0,
+    "results": {
+      "successRate": 0.08,
+      "total": 7.85,
+      "slowest": 1.91,
+      "fastest": 0.03,
+      "average": 0.81,
+      "requestsPerSec": 141.33,
+      "totalData": 53848,
+      "sizePerRequest": 127,
+      "sizePerSec": 6858.48,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 4145,
+        "Connection refused (os error 61)": 5,
+        "connection error": 481,
+        "timeout": 234
+      },
+      "grossRequestsPerSec": 673.65,
+      "p95_latency": 1.53
+    },
+    "timestamp": "2025-05-30T02:08:46Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 32,
+    "results": {
+      "successRate": 1.0,
+      "total": 7.1,
+      "slowest": 0.07,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 3652.0,
+      "totalData": 1391412,
+      "sizePerRequest": 127,
+      "sizePerSec": 196096.12,
+      "errorDistribution": {
+        "timeout": 32
+      },
+      "grossRequestsPerSec": 1548.57,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-30T02:08:57Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 64,
+    "results": {
+      "successRate": 0.26,
+      "total": 5.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 7.33,
+      "totalData": 2794,
+      "sizePerRequest": 127,
+      "sizePerSec": 557.85,
+      "errorDistribution": {
+        "timeout": 64
+      },
+      "grossRequestsPerSec": 17.17,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-30T02:09:03Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 128,
+    "results": {
+      "successRate": 0.62,
+      "total": 5.05,
+      "slowest": 0.03,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 69.67,
+      "totalData": 26543,
+      "sizePerRequest": 127,
+      "sizePerSec": 5258.0,
+      "errorDistribution": {
+        "timeout": 128
+      },
+      "grossRequestsPerSec": 66.76,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-30T02:09:08Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 256,
+    "results": {
+      "successRate": 0.01,
+      "total": 5.01,
+      "slowest": 3.05,
+      "fastest": 3.04,
+      "average": 3.04,
+      "requestsPerSec": 22.0,
+      "totalData": 8382,
+      "sizePerRequest": 127,
+      "sizePerSec": 1673.76,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 4504,
+        "timeout": 134
+      },
+      "grossRequestsPerSec": 939.32,
+      "p95_latency": 3.04
+    },
+    "timestamp": "2025-05-30T02:09:13Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 512,
+    "results": {
+      "successRate": 0.0,
+      "total": 5.01,
+      "slowest": 3.2,
+      "fastest": 3.2,
+      "average": 3.2,
+      "requestsPerSec": 1.67,
+      "totalData": 635,
+      "sizePerRequest": 127,
+      "sizePerSec": 126.72,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 4744,
+        "connection error": 235,
+        "timeout": 105
+      },
+      "grossRequestsPerSec": 1015.54,
+      "p95_latency": 3.2
+    },
+    "timestamp": "2025-05-30T02:09:18Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 32,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.23,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 4562.33,
+      "totalData": 1738249,
+      "sizePerRequest": 127,
+      "sizePerSec": 578301.46,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 4553.55,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-30T02:09:25Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 64,
+    "results": {
+      "successRate": 0.92,
+      "total": 5.14,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 252.33,
+      "totalData": 96139,
+      "sizePerRequest": 127,
+      "sizePerSec": 18708.83,
+      "errorDistribution": {
+        "timeout": 64
+      },
+      "grossRequestsPerSec": 159.77,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-30T02:09:30Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 128,
+    "results": {
+      "successRate": 0.49,
+      "total": 5.03,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 40.33,
+      "totalData": 15367,
+      "sizePerRequest": 127,
+      "sizePerSec": 3056.2,
+      "errorDistribution": {
+        "timeout": 128
+      },
+      "grossRequestsPerSec": 49.52,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-30T02:09:35Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 256,
+    "results": {
+      "successRate": 0.05,
+      "total": 7.97,
+      "slowest": 2.97,
+      "fastest": 0.02,
+      "average": 0.54,
+      "requestsPerSec": 85.0,
+      "totalData": 32385,
+      "sizePerRequest": 127,
+      "sizePerSec": 4062.96,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 4513,
+        "connection error": 11,
+        "timeout": 220
+      },
+      "grossRequestsPerSec": 627.17,
+      "p95_latency": 2.97
+    },
+    "timestamp": "2025-05-30T02:09:44Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 512,
+    "results": {
+      "successRate": 0.03,
+      "total": 5.01,
+      "slowest": 3.17,
+      "fastest": 0.1,
+      "average": 3.05,
+      "requestsPerSec": 43.0,
+      "totalData": 16383,
+      "sizePerRequest": 127,
+      "sizePerSec": 3269.93,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 4736,
+        "connection error": 7,
+        "timeout": 179
+      },
+      "grossRequestsPerSec": 1008.14,
+      "p95_latency": 3.17
+    },
+    "timestamp": "2025-05-30T02:09:49Z"
+  }
+]

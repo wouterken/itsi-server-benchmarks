@@ -1,0 +1,334 @@
+[
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.01,
+      "total": 3.0,
+      "slowest": 0.11,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 42.67,
+      "totalData": 21760,
+      "sizePerRequest": 170,
+      "sizePerSec": 7246.75,
+      "errorDistribution": {
+        "Connection refused (os error 61)": 14974,
+        "connection closed before message completed": 183,
+        "operation was canceled": 4
+      },
+      "grossRequestsPerSec": 5095.04,
+      "p95_latency": 0.11
+    },
+    "timestamp": "2025-05-29T22:25:52Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Connection refused (os error 61)": 15
+      },
+      "grossRequestsPerSec": 21.62,
+      "p95_latency": null
+    },
+    "timestamp": "2025-05-29T22:25:55Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Connection refused (os error 61)": 53
+      },
+      "grossRequestsPerSec": 50.9,
+      "p95_latency": null
+    },
+    "timestamp": "2025-05-29T22:25:58Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Connection refused (os error 61)": 105
+      },
+      "grossRequestsPerSec": 118.15,
+      "p95_latency": null
+    },
+    "timestamp": "2025-05-29T22:26:02Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.33,
+      "total": 3.01,
+      "slowest": 0.16,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 49.0,
+      "totalData": 25089,
+      "sizePerRequest": 167,
+      "sizePerSec": 8347.41,
+      "errorDistribution": {
+        "connection closed before message completed": 301,
+        "connection error": 7
+      },
+      "grossRequestsPerSec": 155.71,
+      "p95_latency": 0.11
+    },
+    "timestamp": "2025-05-29T22:26:08Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.38,
+      "total": 3.01,
+      "slowest": 0.18,
+      "fastest": 0.0,
+      "average": 0.04,
+      "requestsPerSec": 321.0,
+      "totalData": 163710,
+      "sizePerRequest": 170,
+      "sizePerSec": 54393.47,
+      "errorDistribution": {
+        "connection closed before message completed": 1496,
+        "connection error": 52,
+        "operation was canceled": 8
+      },
+      "grossRequestsPerSec": 853.56,
+      "p95_latency": 0.16
+    },
+    "timestamp": "2025-05-29T22:26:11Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.35,
+      "total": 3.0,
+      "slowest": 0.3,
+      "fastest": 0.0,
+      "average": 0.06,
+      "requestsPerSec": 443.0,
+      "totalData": 225930,
+      "sizePerRequest": 170,
+      "sizePerSec": 75206.52,
+      "errorDistribution": {
+        "connection closed before message completed": 2435,
+        "connection error": 65,
+        "operation was canceled": 4
+      },
+      "grossRequestsPerSec": 1309.2,
+      "p95_latency": 0.18
+    },
+    "timestamp": "2025-05-29T22:26:14Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.16,
+      "total": 3.01,
+      "slowest": 0.25,
+      "fastest": 0.0,
+      "average": 0.06,
+      "requestsPerSec": 630.67,
+      "totalData": 321640,
+      "sizePerRequest": 170,
+      "sizePerSec": 106908.93,
+      "errorDistribution": {
+        "Connection refused (os error 61)": 6540,
+        "Connection reset by peer (os error 54)": 1,
+        "connection closed before message completed": 3015,
+        "connection error": 744,
+        "operation was canceled": 5
+      },
+      "grossRequestsPerSec": 4137.22,
+      "p95_latency": 0.19
+    },
+    "timestamp": "2025-05-29T22:26:18Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.46,
+      "total": 3.01,
+      "slowest": 0.33,
+      "fastest": 0.0,
+      "average": 0.12,
+      "requestsPerSec": 45.0,
+      "totalData": 22950,
+      "sizePerRequest": 170,
+      "sizePerSec": 7634.17,
+      "errorDistribution": {
+        "connection closed before message completed": 157,
+        "connection error": 1
+      },
+      "grossRequestsPerSec": 100.79,
+      "p95_latency": 0.21
+    },
+    "timestamp": "2025-05-29T22:26:24Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.41,
+      "total": 3.0,
+      "slowest": 0.38,
+      "fastest": 0.0,
+      "average": 0.15,
+      "requestsPerSec": 186.33,
+      "totalData": 95030,
+      "sizePerRequest": 170,
+      "sizePerSec": 31643.47,
+      "errorDistribution": {
+        "connection closed before message completed": 786,
+        "connection error": 34,
+        "operation was canceled": 1
+      },
+      "grossRequestsPerSec": 476.17,
+      "p95_latency": 0.37
+    },
+    "timestamp": "2025-05-29T22:26:27Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.05,
+      "total": 3.01,
+      "slowest": 0.37,
+      "fastest": 0.0,
+      "average": 0.14,
+      "requestsPerSec": 265.33,
+      "totalData": 135320,
+      "sizePerRequest": 170,
+      "sizePerSec": 44991.67,
+      "errorDistribution": {
+        "Connection refused (os error 61)": 13325,
+        "connection closed before message completed": 1423,
+        "connection error": 26
+      },
+      "grossRequestsPerSec": 5210.02,
+      "p95_latency": 0.17
+    },
+    "timestamp": "2025-05-29T22:26:30Z"
+  },
+  {
+    "server": "agoo",
+    "version": "Agoo 2.15.13",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Connection refused (os error 61)": 128
+      },
+      "grossRequestsPerSec": 125.65,
+      "p95_latency": null
+    },
+    "timestamp": "2025-05-29T22:26:34Z"
+  }
+]

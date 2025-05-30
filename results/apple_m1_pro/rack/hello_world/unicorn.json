@@ -1,0 +1,316 @@
+[
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 33.3,
+    "results": {
+      "successRate": 1.0,
+      "total": 6.14,
+      "slowest": 0.16,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 2632.0,
+      "totalData": 86856,
+      "sizePerRequest": 11,
+      "sizePerSec": 14141.01,
+      "errorDistribution": {
+        "timeout": 10
+      },
+      "grossRequestsPerSec": 1287.17,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-30T00:39:41Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 33.3,
+    "results": {
+      "successRate": 0.29,
+      "total": 5.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 6.67,
+      "totalData": 220,
+      "sizePerRequest": 11,
+      "sizePerSec": 43.93,
+      "errorDistribution": {
+        "timeout": 50
+      },
+      "grossRequestsPerSec": 13.98,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-30T00:39:46Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 33.3,
+    "results": {
+      "successRate": 0.21,
+      "total": 5.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 9.0,
+      "totalData": 297,
+      "sizePerRequest": 11,
+      "sizePerSec": 59.28,
+      "errorDistribution": {
+        "timeout": 100
+      },
+      "grossRequestsPerSec": 25.35,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-30T00:39:51Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 33.3,
+    "results": {
+      "successRate": 0.25,
+      "total": 5.02,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 28.0,
+      "totalData": 924,
+      "sizePerRequest": 11,
+      "sizePerSec": 183.99,
+      "errorDistribution": {
+        "timeout": 250
+      },
+      "grossRequestsPerSec": 66.51,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-30T00:39:56Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 7.85,
+      "slowest": 0.11,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3981.67,
+      "totalData": 131395,
+      "sizePerRequest": 11,
+      "sizePerSec": 16734.36,
+      "errorDistribution": {
+        "timeout": 10
+      },
+      "grossRequestsPerSec": 1522.58,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-30T00:40:08Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.24,
+      "total": 5.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 5.33,
+      "totalData": 176,
+      "sizePerRequest": 11,
+      "sizePerSec": 35.14,
+      "errorDistribution": {
+        "timeout": 50
+      },
+      "grossRequestsPerSec": 13.18,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-30T00:40:13Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.19,
+      "total": 5.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 8.0,
+      "totalData": 264,
+      "sizePerRequest": 11,
+      "sizePerSec": 52.72,
+      "errorDistribution": {
+        "timeout": 100
+      },
+      "grossRequestsPerSec": 24.76,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-30T00:40:18Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.3,
+      "total": 5.02,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 35.0,
+      "totalData": 1155,
+      "sizePerRequest": 11,
+      "sizePerSec": 229.92,
+      "errorDistribution": {
+        "timeout": 250
+      },
+      "grossRequestsPerSec": 70.67,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-30T00:40:24Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 4.3,
+      "slowest": 1.95,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3285.33,
+      "totalData": 108416,
+      "sizePerRequest": 11,
+      "sizePerSec": 25234.56,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 2294.05,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-30T00:40:32Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.98,
+      "total": 5.34,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 675.0,
+      "totalData": 22275,
+      "sizePerRequest": 11,
+      "sizePerSec": 4170.13,
+      "errorDistribution": {
+        "timeout": 50
+      },
+      "grossRequestsPerSec": 388.46,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-30T00:40:37Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.28,
+      "total": 5.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 13.0,
+      "totalData": 429,
+      "sizePerRequest": 11,
+      "sizePerSec": 85.63,
+      "errorDistribution": {
+        "timeout": 100
+      },
+      "grossRequestsPerSec": 27.74,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-30T00:40:42Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "hello_world",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.21,
+      "total": 5.02,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 22.67,
+      "totalData": 748,
+      "sizePerRequest": 11,
+      "sizePerSec": 149.07,
+      "errorDistribution": {
+        "timeout": 250
+      },
+      "grossRequestsPerSec": 63.38,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-30T00:40:48Z"
+  }
+]

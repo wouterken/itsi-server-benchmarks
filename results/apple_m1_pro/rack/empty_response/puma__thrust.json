@@ -1,0 +1,1178 @@
+[
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 18.67,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.32,
+      "slowest": 0.48,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 497.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.23
+    },
+    "timestamp": "2025-05-28T12:27:49Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 19.25,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.39,
+      "slowest": 1.17,
+      "fastest": 0.0,
+      "average": 0.11,
+      "requestsPerSec": 528.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.94
+    },
+    "timestamp": "2025-05-28T12:27:53Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 25.33,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.09,
+      "slowest": 2.79,
+      "fastest": 0.0,
+      "average": 0.27,
+      "requestsPerSec": 372.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 1.83
+    },
+    "timestamp": "2025-05-28T12:27:56Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 140.73,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.71,
+      "slowest": 1.03,
+      "fastest": 0.0,
+      "average": 0.08,
+      "requestsPerSec": 3232.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection error": 99
+      },
+      "p95_latency": 0.53
+    },
+    "timestamp": "2025-05-28T12:28:00Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.06,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 13204.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T12:28:07Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.21,
+      "slowest": 0.24,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 11546.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.03
+    },
+    "timestamp": "2025-05-28T12:28:11Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.12,
+      "slowest": 1.21,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 4960.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.09
+    },
+    "timestamp": "2025-05-28T12:28:15Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.02,
+      "total": 3.4,
+      "slowest": 1.9,
+      "fastest": 1.77,
+      "average": 1.79,
+      "requestsPerSec": 20.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 3119
+      },
+      "p95_latency": 1.89
+    },
+    "timestamp": "2025-05-28T12:28:19Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.02,
+      "slowest": 0.1,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 2473.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.03
+    },
+    "timestamp": "2025-05-28T12:28:26Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.48,
+      "total": 3.09,
+      "slowest": 1.12,
+      "fastest": 0.0,
+      "average": 0.08,
+      "requestsPerSec": 281.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 1264
+      },
+      "p95_latency": 0.16
+    },
+    "timestamp": "2025-05-28T12:28:29Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.51,
+      "total": 3.05,
+      "slowest": 2.17,
+      "fastest": 0.0,
+      "average": 0.06,
+      "requestsPerSec": 868.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 2476
+      },
+      "p95_latency": 0.26
+    },
+    "timestamp": "2025-05-28T12:28:33Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.18,
+      "total": 3.11,
+      "slowest": 3.1,
+      "fastest": 0.01,
+      "average": 0.16,
+      "requestsPerSec": 151.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 2236,
+        "Connection reset by peer (os error 54)": 1
+      },
+      "p95_latency": 0.27
+    },
+    "timestamp": "2025-05-28T12:28:36Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 20.66,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.12,
+      "slowest": 0.17,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 12300.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T12:28:44Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 21.2,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.03,
+      "slowest": 0.13,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 12423.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.06
+    },
+    "timestamp": "2025-05-28T12:28:47Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 84.0,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.02,
+      "slowest": 0.62,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 7141.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.05
+    },
+    "timestamp": "2025-05-28T12:28:51Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 95.86,
+    "results": {
+      "successRate": 0.97,
+      "total": 4.03,
+      "slowest": 3.86,
+      "fastest": 0.0,
+      "average": 0.28,
+      "requestsPerSec": 1004.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "connection error": 106
+      },
+      "p95_latency": 1.68
+    },
+    "timestamp": "2025-05-28T12:28:55Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.18,
+      "slowest": 0.19,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 8579.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-28T12:29:02Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.05,
+      "slowest": 0.62,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 1801.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.09
+    },
+    "timestamp": "2025-05-28T12:29:06Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.28,
+      "total": 3.03,
+      "slowest": 2.21,
+      "fastest": 0.0,
+      "average": 0.06,
+      "requestsPerSec": 642.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 4897
+      },
+      "p95_latency": 0.36
+    },
+    "timestamp": "2025-05-28T12:29:09Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.32,
+      "total": 3.1,
+      "slowest": 3.08,
+      "fastest": 0.0,
+      "average": 0.15,
+      "requestsPerSec": 651.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 4470,
+        "connection error": 48
+      },
+      "p95_latency": 0.81
+    },
+    "timestamp": "2025-05-28T12:29:13Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.3,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 2875.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-28T12:29:20Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.8,
+      "total": 3.05,
+      "slowest": 0.31,
+      "fastest": 0.0,
+      "average": 0.03,
+      "requestsPerSec": 1232.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 949
+      },
+      "p95_latency": 0.1
+    },
+    "timestamp": "2025-05-28T12:29:23Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.36,
+      "total": 3.08,
+      "slowest": 0.5,
+      "fastest": 0.0,
+      "average": 0.08,
+      "requestsPerSec": 624.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 3310
+      },
+      "p95_latency": 0.15
+    },
+    "timestamp": "2025-05-28T12:29:27Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 5,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.58,
+      "total": 3.06,
+      "slowest": 1.57,
+      "fastest": 0.01,
+      "average": 0.1,
+      "requestsPerSec": 1342.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 2859,
+        "connection error": 58
+      },
+      "p95_latency": 0.5
+    },
+    "timestamp": "2025-05-28T12:29:30Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 20.88,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.22,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 5667.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-28T12:29:38Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 21.3,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.15,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 12122.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.06
+    },
+    "timestamp": "2025-05-28T12:29:41Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 42.7,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.06,
+      "slowest": 0.96,
+      "fastest": 0.0,
+      "average": 0.03,
+      "requestsPerSec": 3401.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.16
+    },
+    "timestamp": "2025-05-28T12:29:45Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 83.95,
+    "results": {
+      "successRate": 0.37,
+      "total": 3.17,
+      "slowest": 3.08,
+      "fastest": 0.0,
+      "average": 0.24,
+      "requestsPerSec": 627.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 3500,
+        "Connection refused (os error 61)": 2,
+        "Connection reset by peer (os error 54)": 43
+      },
+      "p95_latency": 2.5
+    },
+    "timestamp": "2025-05-28T12:29:48Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.24,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 11237.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T12:29:55Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.43,
+      "total": 3.05,
+      "slowest": 0.28,
+      "fastest": 0.0,
+      "average": 0.03,
+      "requestsPerSec": 789.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 3094
+      },
+      "p95_latency": 0.08
+    },
+    "timestamp": "2025-05-28T12:29:59Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.04,
+      "slowest": 1.06,
+      "fastest": 0.0,
+      "average": 0.06,
+      "requestsPerSec": 1489.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.19
+    },
+    "timestamp": "2025-05-28T12:30:02Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.27,
+      "total": 3.12,
+      "slowest": 2.08,
+      "fastest": 0.01,
+      "average": 0.16,
+      "requestsPerSec": 525.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 4559,
+        "connection error": 326
+      },
+      "p95_latency": 0.61
+    },
+    "timestamp": "2025-05-28T12:30:06Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.02,
+      "slowest": 0.46,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 2048.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-28T12:30:13Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.83,
+      "total": 3.06,
+      "slowest": 0.21,
+      "fastest": 0.0,
+      "average": 0.03,
+      "requestsPerSec": 1205.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 753
+      },
+      "p95_latency": 0.09
+    },
+    "timestamp": "2025-05-28T12:30:16Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.17,
+      "total": 3.12,
+      "slowest": 1.85,
+      "fastest": 0.0,
+      "average": 0.05,
+      "requestsPerSec": 400.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 5739
+      },
+      "p95_latency": 0.15
+    },
+    "timestamp": "2025-05-28T12:30:20Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 10,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.41,
+      "total": 3.93,
+      "slowest": 1.74,
+      "fastest": 0.03,
+      "average": 0.45,
+      "requestsPerSec": 522.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 2318,
+        "Connection reset by peer (os error 54)": 13,
+        "connection error": 15
+      },
+      "p95_latency": 1.23
+    },
+    "timestamp": "2025-05-28T12:30:24Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 21.28,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.04,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 13263.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-28T12:30:32Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 21.42,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.2,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 11162.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.06
+    },
+    "timestamp": "2025-05-28T12:30:35Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 55.63,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.06,
+      "slowest": 0.47,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 4564.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.22
+    },
+    "timestamp": "2025-05-28T12:30:39Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 97.72,
+    "results": {
+      "successRate": 0.65,
+      "total": 3.17,
+      "slowest": 2.4,
+      "fastest": 0.0,
+      "average": 0.09,
+      "requestsPerSec": 1642.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 2715
+      },
+      "p95_latency": 0.46
+    },
+    "timestamp": "2025-05-28T12:30:42Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.02,
+      "slowest": 0.04,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 8271.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-28T12:30:49Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.42,
+      "total": 3.06,
+      "slowest": 0.21,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 1140.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 4637
+      },
+      "p95_latency": 0.08
+    },
+    "timestamp": "2025-05-28T12:30:53Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.16,
+      "total": 3.03,
+      "slowest": 2.23,
+      "fastest": 0.0,
+      "average": 0.05,
+      "requestsPerSec": 406.0,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 6165
+      },
+      "p95_latency": 0.18
+    },
+    "timestamp": "2025-05-28T12:30:56Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.33,
+      "total": 3.25,
+      "slowest": 3.24,
+      "fastest": 0.02,
+      "average": 0.38,
+      "requestsPerSec": 335.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 2752,
+        "connection error": 5
+      },
+      "p95_latency": 1.82
+    },
+    "timestamp": "2025-05-28T12:31:00Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.45,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3360.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-28T12:31:07Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.05,
+      "slowest": 0.27,
+      "fastest": 0.0,
+      "average": 0.03,
+      "requestsPerSec": 1449.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {},
+      "p95_latency": 0.09
+    },
+    "timestamp": "2025-05-28T12:31:10Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.17,
+      "total": 3.08,
+      "slowest": 2.31,
+      "fastest": 0.0,
+      "average": 0.13,
+      "requestsPerSec": 407.33,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 6118
+      },
+      "p95_latency": 2.2
+    },
+    "timestamp": "2025-05-28T12:31:14Z"
+  },
+  {
+    "server": "puma__thrust",
+    "version": "puma version 6.6.0+Thruster 0.1.13",
+    "test_case": "empty_response",
+    "threads": 20,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.46,
+      "total": 3.13,
+      "slowest": 1.04,
+      "fastest": 0.0,
+      "average": 0.19,
+      "requestsPerSec": 752.67,
+      "totalData": 0,
+      "sizePerRequest": 0.0,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 2658,
+        "connection error": 36
+      },
+      "p95_latency": 0.92
+    },
+    "timestamp": "2025-05-28T12:31:18Z"
+  }
+]

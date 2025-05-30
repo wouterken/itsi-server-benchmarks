@@ -1,0 +1,379 @@
+[
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 32,
+    "rss_mb": 58.77,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.22,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 46543.0,
+      "totalData": 1288775670,
+      "sizePerRequest": 9230,
+      "sizePerSec": 428912980.37,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 46469.45,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-29T20:33:31Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 64,
+    "rss_mb": 58.98,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 49804.0,
+      "totalData": 1379072760,
+      "sizePerRequest": 9230,
+      "sizePerSec": 459187765.01,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 49749.49,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-29T20:33:34Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 128,
+    "rss_mb": 59.47,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.04,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 49777.67,
+      "totalData": 1378343590,
+      "sizePerRequest": 9230,
+      "sizePerSec": 458658569.27,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 49692.15,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-29T20:33:37Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 256,
+    "rss_mb": 60.5,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 49653.0,
+      "totalData": 1374891570,
+      "sizePerRequest": 9230,
+      "sizePerSec": 457289482.66,
+      "errorDistribution": {
+        "connection error": 121
+      },
+      "grossRequestsPerSec": 49584.07,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-29T20:33:41Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 512,
+    "rss_mb": 66.63,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.35,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 49077.0,
+      "totalData": 1358942130,
+      "sizePerRequest": 9230,
+      "sizePerSec": 450815406.04,
+      "errorDistribution": {
+        "connection error": 711
+      },
+      "grossRequestsPerSec": 49078.27,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-29T20:33:44Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 32,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 68346.0,
+      "totalData": 1892500740,
+      "sizePerRequest": 9230,
+      "sizePerSec": 630192726.51,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 68276.57,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-29T20:33:50Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 64,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 68304.67,
+      "totalData": 1891356220,
+      "sizePerRequest": 9230,
+      "sizePerSec": 629576577.22,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 68209.81,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-29T20:33:53Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 128,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 70120.0,
+      "totalData": 1941622800,
+      "sizePerRequest": 9230,
+      "sizePerSec": 646161706.51,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 70006.69,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-29T20:33:57Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 256,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.04,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 73541.0,
+      "totalData": 2036350290,
+      "sizePerRequest": 9230,
+      "sizePerSec": 676942269.33,
+      "errorDistribution": {
+        "connection error": 118
+      },
+      "grossRequestsPerSec": 73380.75,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-29T20:34:00Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 512,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.13,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 68252.67,
+      "totalData": 1889916340,
+      "sizePerRequest": 9230,
+      "sizePerSec": 627337261.91,
+      "errorDistribution": {
+        "connection error": 723
+      },
+      "grossRequestsPerSec": 68207.19,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-29T20:34:03Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 32,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.09,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 83783.33,
+      "totalData": 2319960500,
+      "sizePerRequest": 9230,
+      "sizePerSec": 772898067.71,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 83737.6,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-29T20:34:10Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 64,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.1,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 88980.67,
+      "totalData": 2463874660,
+      "sizePerRequest": 9230,
+      "sizePerSec": 820380793.92,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 88881.99,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-29T20:34:13Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 128,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.19,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 94120.67,
+      "totalData": 2606201260,
+      "sizePerRequest": 9230,
+      "sizePerSec": 867927400.46,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 94033.3,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-29T20:34:16Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 256,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.24,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 97921.33,
+      "totalData": 2711441720,
+      "sizePerRequest": 9230,
+      "sizePerSec": 902696631.52,
+      "errorDistribution": {
+        "connection error": 114
+      },
+      "grossRequestsPerSec": 97838.24,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-29T20:34:19Z"
+  },
+  {
+    "server": "iodine",
+    "version": "Iodine 0.7.58",
+    "test_case": "static_large",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 512,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.34,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 93127.33,
+      "totalData": 2578695860,
+      "sizePerRequest": 9230,
+      "sizePerSec": 856715043.12,
+      "errorDistribution": {
+        "connection error": 703
+      },
+      "grossRequestsPerSec": 93052.09,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-29T20:34:22Z"
+  }
+]

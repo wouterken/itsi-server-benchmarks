@@ -1,0 +1,1355 @@
+[
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3065.33,
+      "totalData": 836836,
+      "sizePerRequest": 91,
+      "sizePerSec": 278831.14,
+      "errorDistribution": {
+        "connection closed before message completed": 78,
+        "connection error": 9116
+      },
+      "grossRequestsPerSec": 6130.82,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:15:43Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3072.0,
+      "totalData": 838656,
+      "sizePerRequest": 91,
+      "sizePerSec": 279355.07,
+      "errorDistribution": {
+        "connection closed before message completed": 91,
+        "connection error": 9123,
+        "operation was canceled": 2
+      },
+      "grossRequestsPerSec": 6156.33,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:15:46Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.73,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3076.0,
+      "totalData": 839748,
+      "sizePerRequest": 91,
+      "sizePerSec": 279720.55,
+      "errorDistribution": {
+        "connection closed before message completed": 79,
+        "connection error": 9149
+      },
+      "grossRequestsPerSec": 6181.01,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:15:49Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.95,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3075.67,
+      "totalData": 839657,
+      "sizePerRequest": 91,
+      "sizePerSec": 279661.73,
+      "errorDistribution": {
+        "connection closed before message completed": 91,
+        "connection error": 9132,
+        "operation was canceled": 2
+      },
+      "grossRequestsPerSec": 6229.01,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:15:52Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 5499.0,
+      "totalData": 1501227,
+      "sizePerRequest": 91,
+      "sizePerSec": 500170.02,
+      "errorDistribution": {
+        "connection closed before message completed": 241,
+        "connection error": 16155,
+        "operation was canceled": 71
+      },
+      "grossRequestsPerSec": 10985.75,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:15:59Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 5485.67,
+      "totalData": 1497587,
+      "sizePerRequest": 91,
+      "sizePerSec": 498976.3,
+      "errorDistribution": {
+        "connection closed before message completed": 403,
+        "connection error": 15862,
+        "operation was canceled": 144
+      },
+      "grossRequestsPerSec": 10967.18,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:16:02Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.68,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 5481.0,
+      "totalData": 1496313,
+      "sizePerRequest": 91,
+      "sizePerSec": 498428.58,
+      "errorDistribution": {
+        "connection closed before message completed": 345,
+        "connection error": 15918,
+        "operation was canceled": 137
+      },
+      "grossRequestsPerSec": 10973.46,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:16:05Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.91,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 5484.33,
+      "totalData": 1497223,
+      "sizePerRequest": 91,
+      "sizePerSec": 498591.58,
+      "errorDistribution": {
+        "connection closed before message completed": 377,
+        "connection error": 15919,
+        "operation was canceled": 113
+      },
+      "grossRequestsPerSec": 11026.66,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:16:08Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.69,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 12045.33,
+      "totalData": 3288376,
+      "sizePerRequest": 91,
+      "sizePerSec": 1095513.78,
+      "errorDistribution": {
+        "connection closed before message completed": 3511,
+        "connection error": 9464,
+        "operation was canceled": 3198
+      },
+      "grossRequestsPerSec": 17429.6,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:16:14Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.59,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 18095.67,
+      "totalData": 4940117,
+      "sizePerRequest": 91,
+      "sizePerSec": 1645536.02,
+      "errorDistribution": {
+        "connection closed before message completed": 4880,
+        "connection error": 28111,
+        "operation was canceled": 5345
+      },
+      "grossRequestsPerSec": 30868.39,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:16:17Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.6,
+      "total": 3.0,
+      "slowest": 1.23,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 18708.67,
+      "totalData": 5107466,
+      "sizePerRequest": 91,
+      "sizePerSec": 1700981.2,
+      "errorDistribution": {
+        "connection closed before message completed": 5285,
+        "connection error": 26419,
+        "operation was canceled": 6396
+      },
+      "grossRequestsPerSec": 31413.83,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:16:20Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.6,
+      "total": 3.0,
+      "slowest": 2.89,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 18664.33,
+      "totalData": 5095363,
+      "sizePerRequest": 91,
+      "sizePerSec": 1695933.61,
+      "errorDistribution": {
+        "connection closed before message completed": 5299,
+        "connection error": 25775,
+        "operation was canceled": 6453
+      },
+      "grossRequestsPerSec": 31210.28,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:16:23Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3124.67,
+      "totalData": 853034,
+      "sizePerRequest": 91,
+      "sizePerSec": 284256.51,
+      "errorDistribution": {
+        "connection closed before message completed": 37,
+        "connection error": 9336
+      },
+      "grossRequestsPerSec": 6250.39,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:16:30Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3109.33,
+      "totalData": 848848,
+      "sizePerRequest": 91,
+      "sizePerSec": 282788.24,
+      "errorDistribution": {
+        "connection closed before message completed": 39,
+        "connection error": 9286,
+        "operation was canceled": 1
+      },
+      "grossRequestsPerSec": 6231.12,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:16:33Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.92,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3102.67,
+      "totalData": 847028,
+      "sizePerRequest": 91,
+      "sizePerSec": 282123.61,
+      "errorDistribution": {
+        "connection closed before message completed": 41,
+        "connection error": 9267
+      },
+      "grossRequestsPerSec": 6233.83,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:16:36Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.8,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3090.67,
+      "totalData": 843752,
+      "sizePerRequest": 91,
+      "sizePerSec": 281028.43,
+      "errorDistribution": {
+        "connection closed before message completed": 32,
+        "connection error": 9235,
+        "operation was canceled": 2
+      },
+      "grossRequestsPerSec": 6258.72,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:16:39Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 5689.33,
+      "totalData": 1553188,
+      "sizePerRequest": 91,
+      "sizePerSec": 517526.5,
+      "errorDistribution": {
+        "connection closed before message completed": 235,
+        "connection error": 16744,
+        "operation was canceled": 70
+      },
+      "grossRequestsPerSec": 11371.21,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:16:46Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 5715.67,
+      "totalData": 1560377,
+      "sizePerRequest": 91,
+      "sizePerSec": 519841.18,
+      "errorDistribution": {
+        "connection closed before message completed": 394,
+        "connection error": 16565,
+        "operation was canceled": 147
+      },
+      "grossRequestsPerSec": 11428.08,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:16:49Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.88,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 5688.33,
+      "totalData": 1552915,
+      "sizePerRequest": 91,
+      "sizePerSec": 517352.1,
+      "errorDistribution": {
+        "connection closed before message completed": 377,
+        "connection error": 16498,
+        "operation was canceled": 159
+      },
+      "grossRequestsPerSec": 11392.7,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:16:52Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.9,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 5683.0,
+      "totalData": 1551459,
+      "sizePerRequest": 91,
+      "sizePerSec": 516832.65,
+      "errorDistribution": {
+        "connection closed before message completed": 366,
+        "connection error": 16521,
+        "operation was canceled": 132
+      },
+      "grossRequestsPerSec": 11432.25,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:16:55Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.69,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 12124.0,
+      "totalData": 3309852,
+      "sizePerRequest": 91,
+      "sizePerSec": 1102584.15,
+      "errorDistribution": {
+        "connection closed before message completed": 4094,
+        "connection error": 8693,
+        "operation was canceled": 3777
+      },
+      "grossRequestsPerSec": 17637.47,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:17:01Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.6,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 17756.0,
+      "totalData": 4847388,
+      "sizePerRequest": 91,
+      "sizePerSec": 1614363.51,
+      "errorDistribution": {
+        "connection closed before message completed": 4089,
+        "connection error": 26719,
+        "operation was canceled": 4511
+      },
+      "grossRequestsPerSec": 29519.47,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:17:04Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.6,
+      "total": 3.0,
+      "slowest": 2.24,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 17714.33,
+      "totalData": 4836013,
+      "sizePerRequest": 91,
+      "sizePerSec": 1610731.79,
+      "errorDistribution": {
+        "connection closed before message completed": 4215,
+        "connection error": 26005,
+        "operation was canceled": 4669
+      },
+      "grossRequestsPerSec": 29354.14,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:17:07Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.61,
+      "total": 3.0,
+      "slowest": 2.69,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 17720.33,
+      "totalData": 4837651,
+      "sizePerRequest": 91,
+      "sizePerSec": 1610045.32,
+      "errorDistribution": {
+        "connection closed before message completed": 4236,
+        "connection error": 25513,
+        "operation was canceled": 4920
+      },
+      "grossRequestsPerSec": 29314.06,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:17:10Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3102.0,
+      "totalData": 846846,
+      "sizePerRequest": 91,
+      "sizePerSec": 282098.92,
+      "errorDistribution": {
+        "connection closed before message completed": 62,
+        "connection error": 9243
+      },
+      "grossRequestsPerSec": 6202.97,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:17:17Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3094.67,
+      "totalData": 844844,
+      "sizePerRequest": 91,
+      "sizePerSec": 281491.92,
+      "errorDistribution": {
+        "connection closed before message completed": 28,
+        "connection error": 9250,
+        "operation was canceled": 1
+      },
+      "grossRequestsPerSec": 6201.63,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:17:20Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.72,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3116.33,
+      "totalData": 850759,
+      "sizePerRequest": 91,
+      "sizePerSec": 283369.39,
+      "errorDistribution": {
+        "connection closed before message completed": 41,
+        "connection error": 9303,
+        "operation was canceled": 2
+      },
+      "grossRequestsPerSec": 6260.21,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:17:23Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 1.26,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3094.0,
+      "totalData": 844662,
+      "sizePerRequest": 91,
+      "sizePerSec": 281329.06,
+      "errorDistribution": {
+        "connection closed before message completed": 28,
+        "connection error": 9249
+      },
+      "grossRequestsPerSec": 6264.66,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:17:26Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 5625.67,
+      "totalData": 1535807,
+      "sizePerRequest": 91,
+      "sizePerSec": 511736.06,
+      "errorDistribution": {
+        "connection closed before message completed": 211,
+        "connection error": 16592,
+        "operation was canceled": 55
+      },
+      "grossRequestsPerSec": 11243.95,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:17:33Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 5650.0,
+      "totalData": 1542450,
+      "sizePerRequest": 91,
+      "sizePerSec": 513905.98,
+      "errorDistribution": {
+        "connection closed before message completed": 349,
+        "connection error": 16443,
+        "operation was canceled": 131
+      },
+      "grossRequestsPerSec": 11302.3,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:17:36Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.71,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 5665.67,
+      "totalData": 1546727,
+      "sizePerRequest": 91,
+      "sizePerSec": 515338.8,
+      "errorDistribution": {
+        "connection closed before message completed": 323,
+        "connection error": 16530,
+        "operation was canceled": 120
+      },
+      "grossRequestsPerSec": 11351.45,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:17:39Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.72,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 5637.67,
+      "totalData": 1539083,
+      "sizePerRequest": 91,
+      "sizePerSec": 512604.89,
+      "errorDistribution": {
+        "connection closed before message completed": 294,
+        "connection error": 16486,
+        "operation was canceled": 105
+      },
+      "grossRequestsPerSec": 11339.65,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:17:42Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.69,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 12355.0,
+      "totalData": 3372915,
+      "sizePerRequest": 91,
+      "sizePerSec": 1123752.64,
+      "errorDistribution": {
+        "connection closed before message completed": 4296,
+        "connection error": 8581,
+        "operation was canceled": 4139
+      },
+      "grossRequestsPerSec": 18021.48,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:17:48Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.6,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 17974.0,
+      "totalData": 4906902,
+      "sizePerRequest": 91,
+      "sizePerSec": 1634231.83,
+      "errorDistribution": {
+        "connection closed before message completed": 4336,
+        "connection error": 27686,
+        "operation was canceled": 4599
+      },
+      "grossRequestsPerSec": 30171.45,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:17:51Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.6,
+      "total": 3.0,
+      "slowest": 2.03,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 17677.33,
+      "totalData": 4825912,
+      "sizePerRequest": 91,
+      "sizePerSec": 1607056.85,
+      "errorDistribution": {
+        "connection closed before message completed": 4317,
+        "connection error": 26291,
+        "operation was canceled": 4729
+      },
+      "grossRequestsPerSec": 29460.69,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:17:54Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.6,
+      "total": 3.0,
+      "slowest": 2.73,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 17428.33,
+      "totalData": 4757935,
+      "sizePerRequest": 91,
+      "sizePerSec": 1584017.85,
+      "errorDistribution": {
+        "connection closed before message completed": 4269,
+        "connection error": 25320,
+        "operation was canceled": 4950
+      },
+      "grossRequestsPerSec": 28988.79,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:17:58Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3059.33,
+      "totalData": 835198,
+      "sizePerRequest": 91,
+      "sizePerSec": 278303.38,
+      "errorDistribution": {
+        "connection closed before message completed": 25,
+        "connection error": 9149,
+        "operation was canceled": 1
+      },
+      "grossRequestsPerSec": 6118.89,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:18:04Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3097.67,
+      "totalData": 845663,
+      "sizePerRequest": 91,
+      "sizePerSec": 281777.32,
+      "errorDistribution": {
+        "connection closed before message completed": 26,
+        "connection error": 9266,
+        "operation was canceled": 1
+      },
+      "grossRequestsPerSec": 6209.57,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:18:07Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.72,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3103.33,
+      "totalData": 847210,
+      "sizePerRequest": 91,
+      "sizePerSec": 282250.12,
+      "errorDistribution": {
+        "connection closed before message completed": 40,
+        "connection error": 9270
+      },
+      "grossRequestsPerSec": 6236.61,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:18:10Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.28,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 3063.67,
+      "totalData": 836381,
+      "sizePerRequest": 91,
+      "sizePerSec": 278610.76,
+      "errorDistribution": {
+        "connection closed before message completed": 32,
+        "connection error": 9153,
+        "operation was canceled": 1
+      },
+      "grossRequestsPerSec": 6204.93,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-05-31T04:18:13Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 5579.67,
+      "totalData": 1523249,
+      "sizePerRequest": 91,
+      "sizePerSec": 507501.85,
+      "errorDistribution": {
+        "connection closed before message completed": 197,
+        "connection error": 16444,
+        "operation was canceled": 68
+      },
+      "grossRequestsPerSec": 11147.22,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:18:20Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 5584.0,
+      "totalData": 1524432,
+      "sizePerRequest": 91,
+      "sizePerSec": 507940.33,
+      "errorDistribution": {
+        "connection closed before message completed": 344,
+        "connection error": 16264,
+        "operation was canceled": 118
+      },
+      "grossRequestsPerSec": 11171.52,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:18:23Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.72,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 5568.33,
+      "totalData": 1520155,
+      "sizePerRequest": 91,
+      "sizePerSec": 506439.06,
+      "errorDistribution": {
+        "connection closed before message completed": 303,
+        "connection error": 16279,
+        "operation was canceled": 93
+      },
+      "grossRequestsPerSec": 11153.85,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:18:26Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.93,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 5556.0,
+      "totalData": 1516788,
+      "sizePerRequest": 91,
+      "sizePerSec": 505130.0,
+      "errorDistribution": {
+        "connection closed before message completed": 304,
+        "connection error": 16221,
+        "operation was canceled": 115
+      },
+      "grossRequestsPerSec": 11175.69,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:18:29Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.69,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 11967.0,
+      "totalData": 3266991,
+      "sizePerRequest": 91,
+      "sizePerSec": 1088491.9,
+      "errorDistribution": {
+        "connection closed before message completed": 4181,
+        "connection error": 7929,
+        "operation was canceled": 4082
+      },
+      "grossRequestsPerSec": 17359.28,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:18:35Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.59,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 16644.0,
+      "totalData": 4543812,
+      "sizePerRequest": 91,
+      "sizePerSec": 1513651.36,
+      "errorDistribution": {
+        "connection closed before message completed": 3738,
+        "connection error": 27358,
+        "operation was canceled": 3995
+      },
+      "grossRequestsPerSec": 28339.5,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-05-31T04:18:38Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.6,
+      "total": 3.0,
+      "slowest": 2.06,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 16995.33,
+      "totalData": 4639726,
+      "sizePerRequest": 91,
+      "sizePerSec": 1545258.72,
+      "errorDistribution": {
+        "connection closed before message completed": 3824,
+        "connection error": 26121,
+        "operation was canceled": 4353
+      },
+      "grossRequestsPerSec": 28436.44,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:18:41Z"
+  },
+  {
+    "server": "puma",
+    "version": "puma version 6.6.0",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 12,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.6,
+      "total": 3.0,
+      "slowest": 2.7,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 16791.67,
+      "totalData": 4584125,
+      "sizePerRequest": 91,
+      "sizePerSec": 1525705.91,
+      "errorDistribution": {
+        "connection closed before message completed": 3839,
+        "connection error": 25634,
+        "operation was canceled": 4541
+      },
+      "grossRequestsPerSec": 28169.87,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-05-31T04:18:45Z"
+  }
+]

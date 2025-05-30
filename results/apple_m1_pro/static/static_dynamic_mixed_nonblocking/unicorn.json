@@ -1,0 +1,411 @@
+[
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 32,
+    "rss_mb": 32.3,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.48,
+      "fastest": 0.12,
+      "average": 0.29,
+      "requestsPerSec": 63.67,
+      "totalData": 10775124,
+      "sizePerRequest": 34206,
+      "sizePerSec": 3588177.13,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 115.55,
+      "p95_latency": 0.4
+    },
+    "timestamp": "2025-05-30T22:24:38Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 64,
+    "rss_mb": 32.3,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.73,
+      "fastest": 0.06,
+      "average": 0.59,
+      "requestsPerSec": 68.67,
+      "totalData": 8636307,
+      "sizePerRequest": 28502,
+      "sizePerSec": 2875356.19,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 122.19,
+      "p95_latency": 0.7
+    },
+    "timestamp": "2025-05-30T22:24:42Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 128,
+    "rss_mb": 32.3,
+    "results": {
+      "successRate": 0.61,
+      "total": 3.0,
+      "slowest": 2.18,
+      "fastest": 0.65,
+      "average": 1.54,
+      "requestsPerSec": 37.33,
+      "totalData": 5659376,
+      "sizePerRequest": 31973,
+      "sizePerSec": 1883700.77,
+      "errorDistribution": {
+        "connection error": 109,
+        "error writing a body to connection": 1,
+        "operation was canceled": 1
+      },
+      "grossRequestsPerSec": 138.46,
+      "p95_latency": 2.11
+    },
+    "timestamp": "2025-05-30T22:24:45Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 256,
+    "rss_mb": 32.3,
+    "results": {
+      "successRate": 0.11,
+      "total": 3.0,
+      "slowest": 2.76,
+      "fastest": 1.46,
+      "average": 1.88,
+      "requestsPerSec": 26.33,
+      "totalData": 3351618,
+      "sizePerRequest": 28893,
+      "sizePerSec": 1115354.08,
+      "errorDistribution": {
+        "Connection reset by peer (os error 54)": 1,
+        "Invalid argument (os error 22)": 1,
+        "connection error": 964,
+        "error writing a body to connection": 18,
+        "operation was canceled": 2
+      },
+      "grossRequestsPerSec": 451.92,
+      "p95_latency": 2.26
+    },
+    "timestamp": "2025-05-30T22:24:48Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 512,
+    "rss_mb": 32.3,
+    "results": {
+      "successRate": 0.05,
+      "total": 3.01,
+      "slowest": 2.91,
+      "fastest": 1.36,
+      "average": 1.9,
+      "requestsPerSec": 27.0,
+      "totalData": 4083009,
+      "sizePerRequest": 32149,
+      "sizePerSec": 1358502.17,
+      "errorDistribution": {
+        "Connection reset by peer (os error 54)": 37,
+        "Invalid argument (os error 22)": 3,
+        "connection error": 2417,
+        "error writing a body to connection": 7,
+        "operation was canceled": 5
+      },
+      "grossRequestsPerSec": 1034.1,
+      "p95_latency": 2.53
+    },
+    "timestamp": "2025-05-30T22:24:51Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 32,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.4,
+      "fastest": 0.14,
+      "average": 0.26,
+      "requestsPerSec": 79.67,
+      "totalData": 10679907,
+      "sizePerRequest": 29666,
+      "sizePerSec": 3557418.73,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 130.57,
+      "p95_latency": 0.36
+    },
+    "timestamp": "2025-05-30T22:24:58Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 64,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.66,
+      "fastest": 0.12,
+      "average": 0.5,
+      "requestsPerSec": 82.33,
+      "totalData": 8801547,
+      "sizePerRequest": 25735,
+      "sizePerSec": 2929859.1,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 135.15,
+      "p95_latency": 0.63
+    },
+    "timestamp": "2025-05-30T22:25:01Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 128,
+    "results": {
+      "successRate": 0.66,
+      "total": 3.0,
+      "slowest": 1.89,
+      "fastest": 0.49,
+      "average": 1.38,
+      "requestsPerSec": 41.0,
+      "totalData": 6209313,
+      "sizePerRequest": 32006,
+      "sizePerSec": 2067554.12,
+      "errorDistribution": {
+        "connection error": 97,
+        "operation was canceled": 2
+      },
+      "grossRequestsPerSec": 140.18,
+      "p95_latency": 1.82
+    },
+    "timestamp": "2025-05-30T22:25:04Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 256,
+    "results": {
+      "successRate": 0.08,
+      "total": 3.0,
+      "slowest": 2.59,
+      "fastest": 1.37,
+      "average": 1.95,
+      "requestsPerSec": 22.67,
+      "totalData": 3481663,
+      "sizePerRequest": 32237,
+      "sizePerSec": 1159498.01,
+      "errorDistribution": {
+        "Connection reset by peer (os error 54)": 36,
+        "Invalid argument (os error 22)": 1,
+        "connection error": 1198,
+        "error writing a body to connection": 9,
+        "operation was canceled": 19
+      },
+      "grossRequestsPerSec": 541.84,
+      "p95_latency": 2.5
+    },
+    "timestamp": "2025-05-30T22:25:07Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 512,
+    "results": {
+      "successRate": 0.01,
+      "total": 3.0,
+      "slowest": 2.03,
+      "fastest": 1.27,
+      "average": 1.6,
+      "requestsPerSec": 17.67,
+      "totalData": 2659292,
+      "sizePerRequest": 32039,
+      "sizePerSec": 885088.71,
+      "errorDistribution": {
+        "Connection reset by peer (os error 54)": 11,
+        "connection error": 13719,
+        "error writing a body to connection": 1,
+        "operation was canceled": 3
+      },
+      "grossRequestsPerSec": 4769.1,
+      "p95_latency": 1.93
+    },
+    "timestamp": "2025-05-30T22:25:10Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 32,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.45,
+      "fastest": 0.14,
+      "average": 0.26,
+      "requestsPerSec": 79.67,
+      "totalData": 10718960,
+      "sizePerRequest": 29857,
+      "sizePerSec": 3569444.54,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 130.2,
+      "p95_latency": 0.33
+    },
+    "timestamp": "2025-05-30T22:25:17Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 64,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.9,
+      "fastest": 0.07,
+      "average": 0.63,
+      "requestsPerSec": 55.33,
+      "totalData": 8494682,
+      "sizePerRequest": 32299,
+      "sizePerSec": 2828625.38,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 108.89,
+      "p95_latency": 0.86
+    },
+    "timestamp": "2025-05-30T22:25:20Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 128,
+    "results": {
+      "successRate": 0.53,
+      "total": 3.0,
+      "slowest": 1.93,
+      "fastest": 0.7,
+      "average": 1.39,
+      "requestsPerSec": 47.67,
+      "totalData": 5729675,
+      "sizePerRequest": 27679,
+      "sizePerSec": 1907184.82,
+      "errorDistribution": {
+        "Connection reset by peer (os error 54)": 1,
+        "connection error": 179
+      },
+      "grossRequestsPerSec": 171.42,
+      "p95_latency": 1.86
+    },
+    "timestamp": "2025-05-30T22:25:23Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 256,
+    "results": {
+      "successRate": 0.1,
+      "total": 3.0,
+      "slowest": 2.87,
+      "fastest": 1.23,
+      "average": 1.88,
+      "requestsPerSec": 30.33,
+      "totalData": 3888614,
+      "sizePerRequest": 29019,
+      "sizePerSec": 1294600.71,
+      "errorDistribution": {
+        "Connection reset by peer (os error 54)": 27,
+        "Invalid argument (os error 22)": 3,
+        "connection error": 1155,
+        "error writing a body to connection": 26,
+        "operation was canceled": 16
+      },
+      "grossRequestsPerSec": 538.33,
+      "p95_latency": 2.82
+    },
+    "timestamp": "2025-05-30T22:25:26Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 512,
+    "results": {
+      "successRate": 0.01,
+      "total": 3.01,
+      "slowest": 2.14,
+      "fastest": 1.6,
+      "average": 1.81,
+      "requestsPerSec": 15.67,
+      "totalData": 2337626,
+      "sizePerRequest": 32022,
+      "sizePerSec": 777856.64,
+      "errorDistribution": {
+        "Connection reset by peer (os error 54)": 27,
+        "connection error": 14107,
+        "error writing a body to connection": 5,
+        "operation was canceled": 3
+      },
+      "grossRequestsPerSec": 4900.48,
+      "p95_latency": 2.12
+    },
+    "timestamp": "2025-05-30T22:25:29Z"
+  }
+]
