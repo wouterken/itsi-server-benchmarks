@@ -41,12 +41,20 @@ Server(
 Server(
   :agoo,
   '%<base>s -p %<port>s %<app_path>s -w %<workers>s -t %<threads>s %<www>s',
+  chdir: 'apps',
   # Agoo supposedly supports threading, but in local tests it spins up only a single thread
   # regardless of the argument given for `-t`
-  chdir: 'apps',
   supports: %i[processes full_hijack static file_server ruby],
   www: ->(test_case, _args) { test_case.static_files_root ? "-d #{test_case.static_files_root}" : '' },
   app_path: ->(_test_case, args) { args[:app_path].gsub('apps/', '') }
+)
+
+Server(
+  :passenger,
+  '%<base>s start -p %<port>s -R %<app_path>s --min-instances  %<workers>s --max-pool-size  %<workers>s %<www>s',
+  # We're running the free version of Passenger, which doesn't support threaded mode
+  supports: %i[processes static file_server full_hijack streaming_body ruby],
+  www: ->(test_case, _args) { test_case.static_files_root ? "--static-files-dir  #{test_case.static_files_root}" : '' }
 )
 
 # Puma + Reverse Proxy (We could do this for any Rack server, but focus on just Puma+Proxy for now as the most common

@@ -25,6 +25,7 @@ class Server # rubocop:disable Style/Documentation,Metrics/ClassLength
       when :itsi then `bundle exec itsi -v 2>&1`
       when :falcon then `bundle exec falcon -v 2>&1`
       when :unicorn then `bundle exec unicorn -v 2>&1`
+      when :passenger then `bundle exec passenger -v 2>&1`
       when :nginx then `nginx -v 2>&1`
       when :caddy then "Caddy #{`caddy -v 2>&1`.split(' ').first}"
       when :h2o then `h2o -v | head -1`

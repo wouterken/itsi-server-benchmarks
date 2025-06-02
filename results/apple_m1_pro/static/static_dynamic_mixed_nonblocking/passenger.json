@@ -1,0 +1,380 @@
+[
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 32,
+    "rss_mb": 32.42,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.84,
+      "fastest": 0.0,
+      "average": 0.13,
+      "requestsPerSec": 229.33,
+      "totalData": 2186639,
+      "sizePerRequest": 3178,
+      "sizePerSec": 728116.46,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 239.75,
+      "p95_latency": 0.4
+    },
+    "timestamp": "2025-06-02T09:13:59Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 64,
+    "rss_mb": 32.42,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 1.0,
+      "fastest": 0.0,
+      "average": 0.2,
+      "requestsPerSec": 279.67,
+      "totalData": 2786744,
+      "sizePerRequest": 3321,
+      "sizePerSec": 927833.95,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 300.65,
+      "p95_latency": 0.79
+    },
+    "timestamp": "2025-06-02T09:14:02Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 128,
+    "rss_mb": 38.33,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 1.27,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 30601.0,
+      "totalData": 437955967,
+      "sizePerRequest": 3194,
+      "sizePerSec": 145812985.58,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 45690.33,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-06-02T09:14:05Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 256,
+    "rss_mb": 38.75,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 1.25,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 31472.0,
+      "totalData": 450731385,
+      "sizePerRequest": 3183,
+      "sizePerSec": 150034709.13,
+      "errorDistribution": {
+        "connection error": 108
+      },
+      "grossRequestsPerSec": 47247.82,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-06-02T09:14:08Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 512,
+    "rss_mb": 38.95,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 1.37,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 31311.67,
+      "totalData": 446983508,
+      "sizePerRequest": 3187,
+      "sizePerSec": 148760271.34,
+      "errorDistribution": {
+        "connection error": 693
+      },
+      "grossRequestsPerSec": 47069.55,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-06-02T09:14:11Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 32,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.31,
+      "fastest": 0.0,
+      "average": 0.07,
+      "requestsPerSec": 468.67,
+      "totalData": 4235239,
+      "sizePerRequest": 3012,
+      "sizePerSec": 1410120.93,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 478.78,
+      "p95_latency": 0.2
+    },
+    "timestamp": "2025-06-02T09:14:18Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 64,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.42,
+      "fastest": 0.0,
+      "average": 0.11,
+      "requestsPerSec": 557.33,
+      "totalData": 5650909,
+      "sizePerRequest": 3379,
+      "sizePerSec": 1882231.82,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 578.24,
+      "p95_latency": 0.39
+    },
+    "timestamp": "2025-06-02T09:14:21Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 128,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.63,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 29230.33,
+      "totalData": 417827955,
+      "sizePerRequest": 3199,
+      "sizePerSec": 139133469.8,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 43530.08,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-06-02T09:14:24Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 256,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.64,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 29208.0,
+      "totalData": 416427673,
+      "sizePerRequest": 3195,
+      "sizePerSec": 138601226.26,
+      "errorDistribution": {
+        "connection error": 109
+      },
+      "grossRequestsPerSec": 43496.06,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-06-02T09:14:27Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 512,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.01,
+      "slowest": 0.66,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 30395.67,
+      "totalData": 431603283,
+      "sizePerRequest": 3176,
+      "sizePerSec": 143614602.35,
+      "errorDistribution": {
+        "connection error": 691
+      },
+      "grossRequestsPerSec": 45612.26,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-06-02T09:14:30Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 32,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.05,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 2025.0,
+      "totalData": 19035384,
+      "sizePerRequest": 3133,
+      "sizePerSec": 6338799.06,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 2033.64,
+      "p95_latency": 0.05
+    },
+    "timestamp": "2025-06-02T09:14:37Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 64,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.1,
+      "fastest": 0.0,
+      "average": 0.03,
+      "requestsPerSec": 2007.0,
+      "totalData": 19357274,
+      "sizePerRequest": 3214,
+      "sizePerSec": 6445904.45,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 2026.28,
+      "p95_latency": 0.1
+    },
+    "timestamp": "2025-06-02T09:14:40Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 128,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.18,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 30046.0,
+      "totalData": 420037495,
+      "sizePerRequest": 3189,
+      "sizePerSec": 139902896.07,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 43906.94,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-06-02T09:14:43Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 256,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.18,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 30610.67,
+      "totalData": 428513617,
+      "sizePerRequest": 3182,
+      "sizePerSec": 142722730.77,
+      "errorDistribution": {
+        "connection error": 104,
+        "operation was canceled": 4
+      },
+      "grossRequestsPerSec": 44968.72,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-06-02T09:14:46Z"
+  },
+  {
+    "server": "passenger",
+    "version": "Phusion Passenger(R) 6.0.27",
+    "test_case": "static_dynamic_mixed_nonblocking",
+    "threads": 1,
+    "workers": 8,
+    "http2": false,
+    "concurrency": 512,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.01,
+      "slowest": 0.19,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 29573.67,
+      "totalData": 414989473,
+      "sizePerRequest": 3193,
+      "sizePerSec": 138087840.72,
+      "errorDistribution": {
+        "connection error": 683
+      },
+      "grossRequestsPerSec": 43634.87,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-06-02T09:14:50Z"
+  }
+]
