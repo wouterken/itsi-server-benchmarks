@@ -1,0 +1,2455 @@
+[
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 39.81,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 30410
+      },
+      "grossRequestsPerSec": 10128.98,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:55:12Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 39.81,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 29280
+      },
+      "grossRequestsPerSec": 9770.56,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:55:15Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 39.94,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 29690
+      },
+      "grossRequestsPerSec": 9917.71,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:55:18Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 39.95,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 29520
+      },
+      "grossRequestsPerSec": 9906.37,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:55:21Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 40.06,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.5,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T23:55:28Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 40.06,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3857.55,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.25,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T23:55:31Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 40.2,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 33.33,
+      "totalData": 23200,
+      "sizePerRequest": 232,
+      "sizePerSec": 7721.96,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 66.57,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:55:34Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 40.34,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 0.1,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 11737.67,
+      "totalData": 8247440,
+      "sizePerRequest": 234,
+      "sizePerSec": 2745283.06,
+      "errorDistribution": {
+        "connection closed before message completed": 37,
+        "connection error": 35094,
+        "operation was canceled": 1
+      },
+      "grossRequestsPerSec": 23498.6,
+      "p95_latency": 0.04
+    },
+    "timestamp": "2025-08-09T23:55:37Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 52930
+      },
+      "grossRequestsPerSec": 17638.77,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:55:44Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 53300
+      },
+      "grossRequestsPerSec": 17764.8,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:55:47Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 52550
+      },
+      "grossRequestsPerSec": 17532.61,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:55:50Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 53890
+      },
+      "grossRequestsPerSec": 18019.9,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:55:53Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.42,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:55:59Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3859.58,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.27,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T23:56:03Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 33.33,
+      "totalData": 23200,
+      "sizePerRequest": 232,
+      "sizePerSec": 7713.81,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 66.5,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:56:06Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.79,
+      "total": 3.01,
+      "slowest": 0.15,
+      "fastest": 0.0,
+      "average": 0.05,
+      "requestsPerSec": 112.67,
+      "totalData": 78416,
+      "sizePerRequest": 232,
+      "sizePerSec": 26056.04,
+      "errorDistribution": {
+        "connection error": 88
+      },
+      "grossRequestsPerSec": 224.62,
+      "p95_latency": 0.14
+    },
+    "timestamp": "2025-08-09T23:56:09Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 35630
+      },
+      "grossRequestsPerSec": 11868.34,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:56:16Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 22110
+      },
+      "grossRequestsPerSec": 7380.27,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:56:19Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 22210
+      },
+      "grossRequestsPerSec": 7430.42,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:56:22Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 23820
+      },
+      "grossRequestsPerSec": 8010.08,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:56:25Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.36,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T23:56:32Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3856.14,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.24,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:56:35Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 33.33,
+      "totalData": 23200,
+      "sizePerRequest": 232,
+      "sizePerSec": 7710.82,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 66.47,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:56:38Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 1,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.09,
+      "fastest": 0.01,
+      "average": 0.04,
+      "requestsPerSec": 83.33,
+      "totalData": 58000,
+      "sizePerRequest": 232,
+      "sizePerSec": 19265.7,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 166.08,
+      "p95_latency": 0.08
+    },
+    "timestamp": "2025-08-09T23:56:41Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 39.47,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 27150
+      },
+      "grossRequestsPerSec": 9043.53,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:56:48Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 39.47,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 30420
+      },
+      "grossRequestsPerSec": 10144.04,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:56:51Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 39.59,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 30040
+      },
+      "grossRequestsPerSec": 10031.77,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:56:54Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 39.61,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 29825
+      },
+      "grossRequestsPerSec": 10006.54,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:56:58Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 40.03,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.02,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T23:57:04Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 40.03,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3854.38,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.23,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:57:07Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 40.23,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 33.33,
+      "totalData": 23200,
+      "sizePerRequest": 232,
+      "sizePerSec": 7702.92,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 66.4,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-08-09T23:57:11Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 40.3,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.01,
+      "slowest": 0.1,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 10566.33,
+      "totalData": 7409048,
+      "sizePerRequest": 233,
+      "sizePerSec": 2465219.66,
+      "errorDistribution": {
+        "connection closed before message completed": 9,
+        "connection error": 31520
+      },
+      "grossRequestsPerSec": 21121.1,
+      "p95_latency": 0.04
+    },
+    "timestamp": "2025-08-09T23:57:14Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 40855
+      },
+      "grossRequestsPerSec": 13606.49,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:57:20Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 49840
+      },
+      "grossRequestsPerSec": 16612.69,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:57:23Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 52300
+      },
+      "grossRequestsPerSec": 17444.63,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:57:26Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 51590
+      },
+      "grossRequestsPerSec": 17250.22,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:57:29Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.29,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:57:36Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3858.14,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.26,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T23:57:39Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 33.33,
+      "totalData": 23200,
+      "sizePerRequest": 232,
+      "sizePerSec": 7717.6,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 66.53,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:57:42Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.83,
+      "total": 3.01,
+      "slowest": 0.07,
+      "fastest": 0.0,
+      "average": 0.03,
+      "requestsPerSec": 105.0,
+      "totalData": 73080,
+      "sizePerRequest": 232,
+      "sizePerSec": 24290.15,
+      "errorDistribution": {
+        "connection error": 65
+      },
+      "grossRequestsPerSec": 209.4,
+      "p95_latency": 0.07
+    },
+    "timestamp": "2025-08-09T23:57:45Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 49230
+      },
+      "grossRequestsPerSec": 16395.49,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:57:52Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 25210
+      },
+      "grossRequestsPerSec": 8411.58,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:57:55Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 23460
+      },
+      "grossRequestsPerSec": 7846.8,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:57:58Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 23900
+      },
+      "grossRequestsPerSec": 8035.78,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:58:02Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.02,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T23:58:08Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3857.4,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.25,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:58:12Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 33.33,
+      "totalData": 23200,
+      "sizePerRequest": 232,
+      "sizePerSec": 7714.0,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 66.5,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:58:15Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 5,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.08,
+      "fastest": 0.01,
+      "average": 0.04,
+      "requestsPerSec": 83.33,
+      "totalData": 58000,
+      "sizePerRequest": 232,
+      "sizePerSec": 19274.5,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 166.16,
+      "p95_latency": 0.08
+    },
+    "timestamp": "2025-08-09T23:58:18Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 42.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 24250
+      },
+      "grossRequestsPerSec": 8083.22,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:58:25Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 42.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 29160
+      },
+      "grossRequestsPerSec": 9725.54,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:58:28Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 42.06,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 30300
+      },
+      "grossRequestsPerSec": 10123.95,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:58:31Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 42.08,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 29600
+      },
+      "grossRequestsPerSec": 9935.98,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:58:34Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 38.84,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.09,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T23:58:41Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 38.84,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3857.29,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.25,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:58:44Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 38.94,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 33.33,
+      "totalData": 23200,
+      "sizePerRequest": 232,
+      "sizePerSec": 7718.89,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 66.54,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:58:47Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 39.19,
+    "results": {
+      "successRate": 0.92,
+      "total": 3.01,
+      "slowest": 0.08,
+      "fastest": 0.01,
+      "average": 0.04,
+      "requestsPerSec": 91.0,
+      "totalData": 63336,
+      "sizePerRequest": 232,
+      "sizePerSec": 21049.25,
+      "errorDistribution": {
+        "connection error": 23
+      },
+      "grossRequestsPerSec": 181.46,
+      "p95_latency": 0.08
+    },
+    "timestamp": "2025-08-09T23:58:50Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 36700
+      },
+      "grossRequestsPerSec": 12229.93,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:58:57Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 45050
+      },
+      "grossRequestsPerSec": 15021.86,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:59:00Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 48825
+      },
+      "grossRequestsPerSec": 16295.42,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:59:03Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 51264
+      },
+      "grossRequestsPerSec": 17137.54,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:59:06Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.33,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T23:59:13Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3859.52,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.27,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T23:59:16Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 33.33,
+      "totalData": 23200,
+      "sizePerRequest": 232,
+      "sizePerSec": 7724.41,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 66.59,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:59:19Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.07,
+      "fastest": 0.01,
+      "average": 0.03,
+      "requestsPerSec": 83.33,
+      "totalData": 58000,
+      "sizePerRequest": 232,
+      "sizePerSec": 19277.49,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 166.19,
+      "p95_latency": 0.07
+    },
+    "timestamp": "2025-08-09T23:59:22Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 52710
+      },
+      "grossRequestsPerSec": 17563.7,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:59:29Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 29660
+      },
+      "grossRequestsPerSec": 9895.26,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:59:32Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 25530
+      },
+      "grossRequestsPerSec": 8531.68,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:59:35Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 24370
+      },
+      "grossRequestsPerSec": 8199.74,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T23:59:38Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.0,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T23:59:45Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3857.73,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.26,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T23:59:48Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.01,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 33.67,
+      "totalData": 23432,
+      "sizePerRequest": 232,
+      "sizePerSec": 7789.66,
+      "errorDistribution": {
+        "connection error": 1
+      },
+      "grossRequestsPerSec": 67.15,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-08-09T23:59:51Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 10,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.96,
+      "total": 3.01,
+      "slowest": 0.08,
+      "fastest": 0.0,
+      "average": 0.04,
+      "requestsPerSec": 87.33,
+      "totalData": 60784,
+      "sizePerRequest": 232,
+      "sizePerSec": 20218.14,
+      "errorDistribution": {
+        "connection error": 12
+      },
+      "grossRequestsPerSec": 174.29,
+      "p95_latency": 0.08
+    },
+    "timestamp": "2025-08-09T23:59:54Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 41.25,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 20446
+      },
+      "grossRequestsPerSec": 6810.08,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:00:01Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 41.25,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 27090
+      },
+      "grossRequestsPerSec": 9036.18,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:00:04Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 41.33,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 29450
+      },
+      "grossRequestsPerSec": 9837.1,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:00:07Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 41.33,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 29250
+      },
+      "grossRequestsPerSec": 9818.55,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:00:10Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 38.14,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.08,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-10T00:00:17Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 38.14,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3855.95,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.24,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-10T00:00:20Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 38.36,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 33.33,
+      "totalData": 23200,
+      "sizePerRequest": 232,
+      "sizePerSec": 7710.55,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 66.47,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-10T00:00:23Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 38.45,
+    "results": {
+      "successRate": 0.96,
+      "total": 3.01,
+      "slowest": 0.11,
+      "fastest": 0.0,
+      "average": 0.05,
+      "requestsPerSec": 87.33,
+      "totalData": 60784,
+      "sizePerRequest": 232,
+      "sizePerSec": 20193.05,
+      "errorDistribution": {
+        "connection error": 12
+      },
+      "grossRequestsPerSec": 174.08,
+      "p95_latency": 0.11
+    },
+    "timestamp": "2025-08-10T00:00:26Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 32960
+      },
+      "grossRequestsPerSec": 10981.32,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:00:33Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 41230
+      },
+      "grossRequestsPerSec": 13751.24,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:00:36Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 46490
+      },
+      "grossRequestsPerSec": 15517.91,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:00:39Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 49520
+      },
+      "grossRequestsPerSec": 16566.8,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:00:42Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.6,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-10T00:00:49Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3858.56,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.26,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-10T00:00:52Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 33.33,
+      "totalData": 23200,
+      "sizePerRequest": 232,
+      "sizePerSec": 7719.76,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 66.55,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-10T00:00:55Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.07,
+      "fastest": 0.01,
+      "average": 0.04,
+      "requestsPerSec": 83.33,
+      "totalData": 58000,
+      "sizePerRequest": 232,
+      "sizePerSec": 19284.47,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 166.25,
+      "p95_latency": 0.07
+    },
+    "timestamp": "2025-08-10T00:00:58Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 37470
+      },
+      "grossRequestsPerSec": 12481.88,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:01:05Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 36170
+      },
+      "grossRequestsPerSec": 12061.42,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:01:08Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 34400
+      },
+      "grossRequestsPerSec": 11479.88,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:01:11Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 14,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "http2 error": 26410
+      },
+      "grossRequestsPerSec": 8875.59,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-10T00:01:14Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3.33,
+      "totalData": 2320,
+      "sizePerRequest": 232,
+      "sizePerSec": 772.13,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 6.66,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-10T00:01:21Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 16.67,
+      "totalData": 11600,
+      "sizePerRequest": 232,
+      "sizePerSec": 3856.73,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 33.25,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-10T00:01:24Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.97,
+      "total": 3.01,
+      "slowest": 0.02,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 34.33,
+      "totalData": 23896,
+      "sizePerRequest": 232,
+      "sizePerSec": 7944.85,
+      "errorDistribution": {
+        "connection error": 3
+      },
+      "grossRequestsPerSec": 68.49,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-08-10T00:01:28Z"
+  },
+  {
+    "server": "falcon",
+    "version": "falcon v0.51.1",
+    "test_case": "full_hijack_nonblocking",
+    "threads": 20,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 0.08,
+      "fastest": 0.01,
+      "average": 0.04,
+      "requestsPerSec": 83.33,
+      "totalData": 58000,
+      "sizePerRequest": 232,
+      "sizePerSec": 19277.51,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 166.19,
+      "p95_latency": 0.08
+    },
+    "timestamp": "2025-08-10T00:01:31Z"
+  }
+]

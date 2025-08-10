@@ -1,0 +1,318 @@
+[
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 30.2,
+    "results": {
+      "successRate": 0.83,
+      "total": 3.0,
+      "slowest": 0.04,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3546.0,
+      "totalData": 138294,
+      "sizePerRequest": 13,
+      "sizePerSec": 46030.07,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 2230
+      },
+      "grossRequestsPerSec": 4286.01,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-08T22:05:55Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 30.2,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 10707
+      },
+      "grossRequestsPerSec": 3568.48,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-08T22:05:58Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 30.2,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.02,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 10446
+      },
+      "grossRequestsPerSec": 3485.5,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-08T22:06:01Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 30.2,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.03,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 10608
+      },
+      "grossRequestsPerSec": 3543.91,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-08T22:06:04Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": 0.55,
+      "fastest": 0.19,
+      "average": 0.35,
+      "requestsPerSec": 2.33,
+      "totalData": 91,
+      "sizePerRequest": 13,
+      "sizePerSec": 30.28,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 10849
+      },
+      "grossRequestsPerSec": 3611.73,
+      "p95_latency": 0.55
+    },
+    "timestamp": "2025-08-08T22:06:11Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 10704
+      },
+      "grossRequestsPerSec": 3563.72,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-08T22:06:14Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.02,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 10711
+      },
+      "grossRequestsPerSec": 3564.9,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-08T22:06:17Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.04,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 10678
+      },
+      "grossRequestsPerSec": 3561.61,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-08T22:06:20Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.81,
+      "total": 3.01,
+      "slowest": 0.67,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 3607.0,
+      "totalData": 140673,
+      "sizePerRequest": 13,
+      "sizePerSec": 46784.53,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 2580
+      },
+      "grossRequestsPerSec": 4457.52,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-08T22:06:27Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 10301
+      },
+      "grossRequestsPerSec": 3427.58,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-08T22:06:30Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.02,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 10725
+      },
+      "grossRequestsPerSec": 3569.36,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-08T22:06:33Z"
+  },
+  {
+    "server": "unicorn",
+    "version": "unicorn v6.1.0",
+    "test_case": "sinatra_get",
+    "threads": 1,
+    "workers": 14,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.04,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "Can't assign requested address (os error 49)": 10549
+      },
+      "grossRequestsPerSec": 3512.94,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-08T22:06:36Z"
+  }
+]

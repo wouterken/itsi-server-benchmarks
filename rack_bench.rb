@@ -155,7 +155,7 @@ def run_benchmark(
       if test_case.grpc?
         "ghz --duration-stop=ignore --cpus=2 -z #{test_case.warmup_duration}s -c50 --call #{test_case.call} --stream-call-count=5 -d #{data.strip} --insecure #{URI(url).host}:#{URI(url).port} --proto #{test_case.proto} -O json"
       else
-        "oha --no-tui -z #{test_case.warmup_duration}s -c50 #{url} -m #{method} #{data ? %(-d "#{data}") : ''} -j #{http2 ? '--http2 --insecure' : ''} #{http2 ? "-p #{test_case.parallel_requests}" : ''}" # rubocop:disable Layout/LineLength
+        "oha --no-tui -z #{test_case.warmup_duration}s -c50 #{url} -m #{method} #{data ? %(-d "#{data}") : ''} --output-format json #{http2 ? '--http2 --insecure' : ''} #{http2 ? "-p #{test_case.parallel_requests}" : ''}" # rubocop:disable Layout/LineLength
       end
 
     test_command_sets = test_case.concurrency_levels.map do |level|
@@ -164,7 +164,7 @@ def run_benchmark(
         if test_case.grpc?
           "ghz --duration-stop=ignore --cpus=2 -z #{test_case.duration}s -c#{level} --call #{test_case.call} --stream-call-count=5 -d #{data.strip} --insecure #{URI(url).host}:#{URI(url).port} --proto #{test_case.proto} -O json" # rubocop:disable Layout/LineLength
         else
-          "oha --no-tui -z #{test_case.duration}s -c#{http2 ? (level / test_case.parallel_requests) : level} #{url} -m #{method} #{data ? %(-d "#{data}") : ''} -j #{http2 ? '--http2 --insecure' : ''} #{http2 ? "-p #{test_case.parallel_requests}" : ''}" # rubocop:disable Layout/LineLength
+          "oha --no-tui -z #{test_case.duration}s -c#{http2 ? (level / test_case.parallel_requests) : level} #{url} -m #{method} #{data ? %(-d "#{data}") : ''} --output-format json #{http2 ? '--http2 --insecure' : ''} #{http2 ? "-p #{test_case.parallel_requests}" : ''}" # rubocop:disable Layout/LineLength
         end
       ]
     end
