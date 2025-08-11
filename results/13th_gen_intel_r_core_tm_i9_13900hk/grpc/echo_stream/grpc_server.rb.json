@@ -1,0 +1,382 @@
+[
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 0.01,
+    "results": {
+      "successRate": 0.0002,
+      "total": 59681,
+      "slowest": 305.4552,
+      "fastest": 300.972,
+      "average": 0.4148,
+      "requestsPerSec": 3.98,
+      "grossRequestsPerSec": 19894.2123,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 59672
+      },
+      "p95_latency": 305.455182
+    },
+    "timestamp": "2025-08-11T09:19:09Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 0.01,
+    "results": {
+      "successRate": 0.0001,
+      "total": 73728,
+      "slowest": 306.8061,
+      "fastest": 302.1937,
+      "average": 1.7713,
+      "requestsPerSec": 2.46,
+      "grossRequestsPerSec": 24574.4652,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 73719
+      },
+      "p95_latency": 306.80614
+    },
+    "timestamp": "2025-08-11T09:19:13Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 0.01,
+    "results": {
+      "successRate": 0.0001,
+      "total": 78241,
+      "slowest": 310.2175,
+      "fastest": 302.1168,
+      "average": 3.4169,
+      "requestsPerSec": 2.61,
+      "grossRequestsPerSec": 26063.4118,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 78232
+      },
+      "p95_latency": 310.217525
+    },
+    "timestamp": "2025-08-11T09:19:16Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 0.02,
+    "results": {
+      "successRate": 0.0001,
+      "total": 78841,
+      "slowest": 316.0296,
+      "fastest": 302.7048,
+      "average": 8.6704,
+      "requestsPerSec": 2.63,
+      "grossRequestsPerSec": 26270.0012,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 78832
+      },
+      "p95_latency": 316.029572
+    },
+    "timestamp": "2025-08-11T09:19:19Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 0.01,
+    "results": {
+      "successRate": 0.0009,
+      "total": 51254,
+      "slowest": 305.6197,
+      "fastest": 300.7999,
+      "average": 0.4927,
+      "requestsPerSec": 15.38,
+      "grossRequestsPerSec": 17085.8237,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 51209
+      },
+      "p95_latency": 305.449686
+    },
+    "timestamp": "2025-08-11T09:19:25Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 0.01,
+    "results": {
+      "successRate": 0.0006,
+      "total": 73950,
+      "slowest": 308.5053,
+      "fastest": 302.0599,
+      "average": 1.7671,
+      "requestsPerSec": 14.79,
+      "grossRequestsPerSec": 24651.5733,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 73905
+      },
+      "p95_latency": 308.45933
+    },
+    "timestamp": "2025-08-11T09:19:28Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 0.01,
+    "results": {
+      "successRate": 0.0006,
+      "total": 74906,
+      "slowest": 313.3174,
+      "fastest": 302.7002,
+      "average": 3.5782,
+      "requestsPerSec": 14.98,
+      "grossRequestsPerSec": 24961.8547,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 74861
+      },
+      "p95_latency": 312.977084
+    },
+    "timestamp": "2025-08-11T09:19:32Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 0.02,
+    "results": {
+      "successRate": 0.0006,
+      "total": 77201,
+      "slowest": 319.5833,
+      "fastest": 301.7321,
+      "average": 8.8805,
+      "requestsPerSec": 15.44,
+      "grossRequestsPerSec": 25727.976,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 77156
+      },
+      "p95_latency": 316.972253
+    },
+    "timestamp": "2025-08-11T09:19:35Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 0.01,
+    "results": {
+      "successRate": 1.0,
+      "total": 90,
+      "slowest": 305.7269,
+      "fastest": 300.8802,
+      "average": 302.4162,
+      "requestsPerSec": 30.0,
+      "grossRequestsPerSec": 30.0018,
+      "errorDistribution": {},
+      "p95_latency": 305.001655
+    },
+    "timestamp": "2025-08-11T09:19:41Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 0.01,
+    "results": {
+      "successRate": 0.0012,
+      "total": 73021,
+      "slowest": 312.387,
+      "fastest": 301.7838,
+      "average": 1.7937,
+      "requestsPerSec": 29.21,
+      "grossRequestsPerSec": 24340.64,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 72931
+      },
+      "p95_latency": 310.35976
+    },
+    "timestamp": "2025-08-11T09:19:44Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 0.01,
+    "results": {
+      "successRate": 0.0012,
+      "total": 74292,
+      "slowest": 311.8891,
+      "fastest": 303.1212,
+      "average": 3.5876,
+      "requestsPerSec": 29.71,
+      "grossRequestsPerSec": 24762.1525,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 74202
+      },
+      "p95_latency": 310.857852
+    },
+    "timestamp": "2025-08-11T09:19:47Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 0.02,
+    "results": {
+      "successRate": 0.0012,
+      "total": 77645,
+      "slowest": 320.8059,
+      "fastest": 301.9188,
+      "average": 8.8458,
+      "requestsPerSec": 31.05,
+      "grossRequestsPerSec": 25872.5842,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 77555
+      },
+      "p95_latency": 320.649812
+    },
+    "timestamp": "2025-08-11T09:19:50Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 0.02,
+    "results": {
+      "successRate": 1.0,
+      "total": 90,
+      "slowest": 305.3348,
+      "fastest": 300.802,
+      "average": 302.3091,
+      "requestsPerSec": 30.0,
+      "grossRequestsPerSec": 29.9959,
+      "errorDistribution": {},
+      "p95_latency": 304.327829
+    },
+    "timestamp": "2025-08-11T09:19:57Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 0.02,
+    "results": {
+      "successRate": 0.0025,
+      "total": 71360,
+      "slowest": 311.5929,
+      "fastest": 301.1928,
+      "average": 1.8538,
+      "requestsPerSec": 59.46,
+      "grossRequestsPerSec": 23784.7484,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 71180
+      },
+      "p95_latency": 309.374878
+    },
+    "timestamp": "2025-08-11T09:20:00Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 0.02,
+    "results": {
+      "successRate": 0.0024,
+      "total": 73793,
+      "slowest": 314.2594,
+      "fastest": 300.8812,
+      "average": 3.6178,
+      "requestsPerSec": 59.01,
+      "grossRequestsPerSec": 24589.4825,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 73613
+      },
+      "p95_latency": 310.420353
+    },
+    "timestamp": "2025-08-11T09:20:03Z"
+  },
+  {
+    "server": "grpc_server.rb",
+    "version": "Unknown",
+    "test_case": "echo_stream",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 0.02,
+    "results": {
+      "successRate": 0.0024,
+      "total": 74599,
+      "slowest": 321.7293,
+      "fastest": 305.1546,
+      "average": 9.2079,
+      "requestsPerSec": 59.66,
+      "grossRequestsPerSec": 24857.5409,
+      "errorDistribution": {
+        "rpc error: code = ResourceExhausted desc = No free threads in thread pool": 74419
+      },
+      "p95_latency": 321.064931
+    },
+    "timestamp": "2025-08-11T09:20:06Z"
+  }
+]

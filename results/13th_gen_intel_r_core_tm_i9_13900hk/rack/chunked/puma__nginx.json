@@ -1,0 +1,2508 @@
+[
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 0.06,
+      "fastest": 0.01,
+      "average": 0.05,
+      "requestsPerSec": 180.67,
+      "totalData": 21680,
+      "sizePerRequest": 40,
+      "sizePerSec": 7223.25,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 183.91,
+      "p95_latency": 0.06
+    },
+    "timestamp": "2025-08-09T07:50:56Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.88,
+      "fastest": 0.01,
+      "average": 0.2,
+      "requestsPerSec": 180.33,
+      "totalData": 21640,
+      "sizePerRequest": 40,
+      "sizePerSec": 7206.84,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 196.82,
+      "p95_latency": 0.19
+    },
+    "timestamp": "2025-08-09T07:50:59Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.87,
+      "fastest": 0.01,
+      "average": 0.21,
+      "requestsPerSec": 180.33,
+      "totalData": 21640,
+      "sizePerRequest": 40,
+      "sizePerSec": 7208.76,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 213.53,
+      "p95_latency": 0.19
+    },
+    "timestamp": "2025-08-09T07:51:02Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.5,
+      "total": 3.0,
+      "slowest": 2.46,
+      "fastest": 0.0,
+      "average": 0.03,
+      "requestsPerSec": 180.33,
+      "totalData": 577036,
+      "sizePerRequest": 163,
+      "sizePerSec": 192221.01,
+      "errorDistribution": {
+        "connection error": 400,
+        "http2 error": 11,
+        "operation was canceled": 3100
+      },
+      "grossRequestsPerSec": 2420.77,
+      "p95_latency": 0.19
+    },
+    "timestamp": "2025-08-09T07:51:05Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 292723
+      },
+      "grossRequestsPerSec": 97523.57,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:51:14Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 297484
+      },
+      "grossRequestsPerSec": 99096.07,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:51:17Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 291257
+      },
+      "grossRequestsPerSec": 96967.12,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:51:20Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 298370
+      },
+      "grossRequestsPerSec": 99362.92,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:51:23Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.03,
+      "fastest": 0.01,
+      "average": 0.03,
+      "requestsPerSec": 361.33,
+      "totalData": 43360,
+      "sizePerRequest": 40,
+      "sizePerSec": 14446.56,
+      "errorDistribution": {
+        "operation was canceled": 10
+      },
+      "grossRequestsPerSec": 367.83,
+      "p95_latency": 0.03
+    },
+    "timestamp": "2025-08-09T07:51:31Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.77,
+      "fastest": 0.01,
+      "average": 0.11,
+      "requestsPerSec": 361.33,
+      "totalData": 43360,
+      "sizePerRequest": 40,
+      "sizePerSec": 14444.78,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 377.78,
+      "p95_latency": 0.1
+    },
+    "timestamp": "2025-08-09T07:51:34Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.94,
+      "fastest": 0.01,
+      "average": 0.11,
+      "requestsPerSec": 361.67,
+      "totalData": 43400,
+      "sizePerRequest": 40,
+      "sizePerSec": 14450.53,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 394.56,
+      "p95_latency": 0.1
+    },
+    "timestamp": "2025-08-09T07:51:37Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.77,
+      "fastest": 0.01,
+      "average": 0.13,
+      "requestsPerSec": 361.0,
+      "totalData": 43320,
+      "sizePerRequest": 40,
+      "sizePerSec": 14421.58,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 443.77,
+      "p95_latency": 0.2
+    },
+    "timestamp": "2025-08-09T07:51:40Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 161813
+      },
+      "grossRequestsPerSec": 53919.15,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:51:49Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 298943
+      },
+      "grossRequestsPerSec": 99616.03,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:51:52Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 374871
+      },
+      "grossRequestsPerSec": 124828.58,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:51:55Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 418307
+      },
+      "grossRequestsPerSec": 139265.67,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:51:58Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.02,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 1717.33,
+      "totalData": 206080,
+      "sizePerRequest": 40,
+      "sizePerSec": 68665.03,
+      "errorDistribution": {
+        "http2 error": 4,
+        "operation was canceled": 46
+      },
+      "grossRequestsPerSec": 1736.62,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:52:06Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.05,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 3606.67,
+      "totalData": 432800,
+      "sizePerRequest": 40,
+      "sizePerSec": 144189.13,
+      "errorDistribution": {
+        "http2 error": 7,
+        "operation was canceled": 93
+      },
+      "grossRequestsPerSec": 3654.7,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-08-09T07:52:09Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 2.7,
+      "fastest": 0.01,
+      "average": 0.02,
+      "requestsPerSec": 3604.33,
+      "totalData": 432520,
+      "sizePerRequest": 40,
+      "sizePerSec": 144071.96,
+      "errorDistribution": {
+        "http2 error": 1,
+        "operation was canceled": 81
+      },
+      "grossRequestsPerSec": 3648.43,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-08-09T07:52:12Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.01,
+      "slowest": 2.89,
+      "fastest": 0.01,
+      "average": 0.03,
+      "requestsPerSec": 3614.33,
+      "totalData": 433720,
+      "sizePerRequest": 40,
+      "sizePerSec": 144292.07,
+      "errorDistribution": {
+        "operation was canceled": 42
+      },
+      "grossRequestsPerSec": 3697.13,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-08-09T07:52:15Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 114003
+      },
+      "grossRequestsPerSec": 37975.51,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:52:24Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 428496
+      },
+      "grossRequestsPerSec": 142613.52,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:52:27Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 575625
+      },
+      "grossRequestsPerSec": 191745.53,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:52:30Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 1,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 611029
+      },
+      "grossRequestsPerSec": 203409.24,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:52:33Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.03,
+      "fastest": 0.01,
+      "average": 0.02,
+      "requestsPerSec": 434.33,
+      "totalData": 52120,
+      "sizePerRequest": 40,
+      "sizePerSec": 17365.28,
+      "errorDistribution": {
+        "operation was canceled": 10
+      },
+      "grossRequestsPerSec": 440.8,
+      "p95_latency": 0.03
+    },
+    "timestamp": "2025-08-09T07:52:42Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.75,
+      "fastest": 0.01,
+      "average": 0.1,
+      "requestsPerSec": 414.33,
+      "totalData": 49720,
+      "sizePerRequest": 40,
+      "sizePerSec": 16557.67,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 430.59,
+      "p95_latency": 0.1
+    },
+    "timestamp": "2025-08-09T07:52:45Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.33,
+      "fastest": 0.01,
+      "average": 0.09,
+      "requestsPerSec": 450.33,
+      "totalData": 54040,
+      "sizePerRequest": 40,
+      "sizePerSec": 17985.39,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 482.92,
+      "p95_latency": 0.1
+    },
+    "timestamp": "2025-08-09T07:52:48Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.88,
+      "total": 3.0,
+      "slowest": 2.81,
+      "fastest": 0.0,
+      "average": 0.02,
+      "requestsPerSec": 452.33,
+      "totalData": 1752832,
+      "sizePerRequest": 167,
+      "sizePerSec": 583663.62,
+      "errorDistribution": {
+        "connection error": 900,
+        "http2 error": 15,
+        "operation was canceled": 533
+      },
+      "grossRequestsPerSec": 4048.74,
+      "p95_latency": 0.08
+    },
+    "timestamp": "2025-08-09T07:52:51Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 293198
+      },
+      "grossRequestsPerSec": 97703.87,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:53:00Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 290034
+      },
+      "grossRequestsPerSec": 96599.41,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:53:03Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 296265
+      },
+      "grossRequestsPerSec": 98709.89,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:53:06Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 291959
+      },
+      "grossRequestsPerSec": 97248.22,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:53:09Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.02,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 878.0,
+      "totalData": 105360,
+      "sizePerRequest": 40,
+      "sizePerSec": 35102.09,
+      "errorDistribution": {
+        "operation was canceled": 20
+      },
+      "grossRequestsPerSec": 887.55,
+      "p95_latency": 0.02
+    },
+    "timestamp": "2025-08-09T07:53:17Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.77,
+      "fastest": 0.01,
+      "average": 0.05,
+      "requestsPerSec": 853.33,
+      "totalData": 102400,
+      "sizePerRequest": 40,
+      "sizePerSec": 34105.25,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 869.28,
+      "p95_latency": 0.05
+    },
+    "timestamp": "2025-08-09T07:53:20Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.09,
+      "fastest": 0.01,
+      "average": 0.05,
+      "requestsPerSec": 856.67,
+      "totalData": 102800,
+      "sizePerRequest": 40,
+      "sizePerSec": 34228.36,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 889.01,
+      "p95_latency": 0.05
+    },
+    "timestamp": "2025-08-09T07:53:23Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.77,
+      "fastest": 0.01,
+      "average": 0.05,
+      "requestsPerSec": 846.67,
+      "totalData": 101600,
+      "sizePerRequest": 40,
+      "sizePerSec": 33820.7,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 928.74,
+      "p95_latency": 0.05
+    },
+    "timestamp": "2025-08-09T07:53:26Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 153022
+      },
+      "grossRequestsPerSec": 50985.15,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:53:35Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 322594
+      },
+      "grossRequestsPerSec": 107459.38,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:53:38Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 375840
+      },
+      "grossRequestsPerSec": 125204.03,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:53:41Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 411598
+      },
+      "grossRequestsPerSec": 136992.5,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:53:44Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 1756.67,
+      "totalData": 210800,
+      "sizePerRequest": 40,
+      "sizePerSec": 70240.36,
+      "errorDistribution": {
+        "operation was canceled": 50
+      },
+      "grossRequestsPerSec": 1776.0,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:53:52Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.02,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 8476.33,
+      "totalData": 1017160,
+      "sizePerRequest": 40,
+      "sizePerSec": 338865.78,
+      "errorDistribution": {
+        "http2 error": 3,
+        "operation was canceled": 247
+      },
+      "grossRequestsPerSec": 8571.59,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:53:55Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 1.06,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 10252.33,
+      "totalData": 1230280,
+      "sizePerRequest": 40,
+      "sizePerSec": 409829.73,
+      "errorDistribution": {
+        "http2 error": 1,
+        "operation was canceled": 279
+      },
+      "grossRequestsPerSec": 10372.33,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:53:58Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 2.88,
+      "fastest": 0.01,
+      "average": 0.02,
+      "requestsPerSec": 10178.33,
+      "totalData": 1221400,
+      "sizePerRequest": 40,
+      "sizePerSec": 406569.33,
+      "errorDistribution": {
+        "http2 error": 2,
+        "operation was canceled": 203
+      },
+      "grossRequestsPerSec": 10287.4,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:54:01Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 114002
+      },
+      "grossRequestsPerSec": 37980.02,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:54:10Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 457988
+      },
+      "grossRequestsPerSec": 152558.54,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:54:13Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 577762
+      },
+      "grossRequestsPerSec": 192093.87,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:54:16Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 5,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 614775
+      },
+      "grossRequestsPerSec": 204720.16,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:54:19Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.03,
+      "fastest": 0.01,
+      "average": 0.02,
+      "requestsPerSec": 423.0,
+      "totalData": 50760,
+      "sizePerRequest": 40,
+      "sizePerSec": 16911.2,
+      "errorDistribution": {
+        "operation was canceled": 10
+      },
+      "grossRequestsPerSec": 429.44,
+      "p95_latency": 0.03
+    },
+    "timestamp": "2025-08-09T07:54:28Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.16,
+      "fastest": 0.01,
+      "average": 0.09,
+      "requestsPerSec": 398.67,
+      "totalData": 47840,
+      "sizePerRequest": 40,
+      "sizePerSec": 15934.8,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 415.02,
+      "p95_latency": 0.1
+    },
+    "timestamp": "2025-08-09T07:54:31Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.36,
+      "fastest": 0.01,
+      "average": 0.09,
+      "requestsPerSec": 432.67,
+      "totalData": 51920,
+      "sizePerRequest": 40,
+      "sizePerSec": 17292.34,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 465.61,
+      "p95_latency": 0.1
+    },
+    "timestamp": "2025-08-09T07:54:34Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.97,
+      "total": 3.0,
+      "slowest": 2.76,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 431.33,
+      "totalData": 1643734,
+      "sizePerRequest": 166,
+      "sizePerSec": 547491.93,
+      "errorDistribution": {
+        "connection error": 290,
+        "http2 error": 15,
+        "operation was canceled": 50
+      },
+      "grossRequestsPerSec": 3475.0,
+      "p95_latency": 0.09
+    },
+    "timestamp": "2025-08-09T07:54:37Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 296027
+      },
+      "grossRequestsPerSec": 98626.83,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:54:46Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 292540
+      },
+      "grossRequestsPerSec": 97461.47,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:54:49Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 295210
+      },
+      "grossRequestsPerSec": 98357.86,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:54:52Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 301128
+      },
+      "grossRequestsPerSec": 100259.84,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:54:55Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.02,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 990.0,
+      "totalData": 118800,
+      "sizePerRequest": 40,
+      "sizePerSec": 39580.61,
+      "errorDistribution": {
+        "operation was canceled": 20
+      },
+      "grossRequestsPerSec": 999.51,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:55:03Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.76,
+      "fastest": 0.01,
+      "average": 0.05,
+      "requestsPerSec": 856.67,
+      "totalData": 102800,
+      "sizePerRequest": 40,
+      "sizePerSec": 34237.24,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 872.58,
+      "p95_latency": 0.05
+    },
+    "timestamp": "2025-08-09T07:55:06Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.5,
+      "fastest": 0.01,
+      "average": 0.05,
+      "requestsPerSec": 849.33,
+      "totalData": 101920,
+      "sizePerRequest": 40,
+      "sizePerSec": 33947.06,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 881.98,
+      "p95_latency": 0.05
+    },
+    "timestamp": "2025-08-09T07:55:09Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.93,
+      "fastest": 0.01,
+      "average": 0.05,
+      "requestsPerSec": 837.67,
+      "totalData": 100520,
+      "sizePerRequest": 40,
+      "sizePerSec": 33457.79,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 919.66,
+      "p95_latency": 0.05
+    },
+    "timestamp": "2025-08-09T07:55:12Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 162026
+      },
+      "grossRequestsPerSec": 53988.88,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:55:21Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 316143
+      },
+      "grossRequestsPerSec": 105359.99,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:55:24Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 383450
+      },
+      "grossRequestsPerSec": 127731.1,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:55:27Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 423143
+      },
+      "grossRequestsPerSec": 140910.57,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:55:30Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 1750.0,
+      "totalData": 210000,
+      "sizePerRequest": 40,
+      "sizePerSec": 69963.37,
+      "errorDistribution": {
+        "operation was canceled": 50
+      },
+      "grossRequestsPerSec": 1769.07,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:55:38Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 8478.67,
+      "totalData": 1017440,
+      "sizePerRequest": 40,
+      "sizePerSec": 338989.87,
+      "errorDistribution": {
+        "http2 error": 2,
+        "operation was canceled": 248
+      },
+      "grossRequestsPerSec": 8574.7,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:55:41Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 1.06,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 9818.0,
+      "totalData": 1178160,
+      "sizePerRequest": 40,
+      "sizePerSec": 392451.87,
+      "errorDistribution": {
+        "http2 error": 4,
+        "operation was canceled": 264
+      },
+      "grossRequestsPerSec": 9927.88,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:55:44Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 2.91,
+      "fastest": 0.01,
+      "average": 0.02,
+      "requestsPerSec": 10729.33,
+      "totalData": 1287520,
+      "sizePerRequest": 40,
+      "sizePerSec": 428684.55,
+      "errorDistribution": {
+        "http2 error": 2,
+        "operation was canceled": 229
+      },
+      "grossRequestsPerSec": 10856.95,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:55:47Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 110152
+      },
+      "grossRequestsPerSec": 36688.37,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:55:56Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 449805
+      },
+      "grossRequestsPerSec": 149869.09,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:55:59Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 552445
+      },
+      "grossRequestsPerSec": 183889.46,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:56:02Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 10,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 609646
+      },
+      "grossRequestsPerSec": 203029.49,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:56:05Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.03,
+      "fastest": 0.01,
+      "average": 0.02,
+      "requestsPerSec": 446.0,
+      "totalData": 53520,
+      "sizePerRequest": 40,
+      "sizePerSec": 17834.92,
+      "errorDistribution": {
+        "operation was canceled": 10
+      },
+      "grossRequestsPerSec": 452.54,
+      "p95_latency": 0.03
+    },
+    "timestamp": "2025-08-09T07:56:14Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.75,
+      "fastest": 0.01,
+      "average": 0.09,
+      "requestsPerSec": 460.33,
+      "totalData": 55240,
+      "sizePerRequest": 40,
+      "sizePerSec": 18408.21,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 476.87,
+      "p95_latency": 0.1
+    },
+    "timestamp": "2025-08-09T07:56:17Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.93,
+      "fastest": 0.01,
+      "average": 0.09,
+      "requestsPerSec": 480.33,
+      "totalData": 57640,
+      "sizePerRequest": 40,
+      "sizePerSec": 19188.24,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 513.0,
+      "p95_latency": 0.1
+    },
+    "timestamp": "2025-08-09T07:56:20Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.95,
+      "total": 3.0,
+      "slowest": 2.94,
+      "fastest": 0.0,
+      "average": 0.01,
+      "requestsPerSec": 426.33,
+      "totalData": 1727206,
+      "sizePerRequest": 167,
+      "sizePerSec": 575343.77,
+      "errorDistribution": {
+        "connection error": 450,
+        "http2 error": 12,
+        "operation was canceled": 62
+      },
+      "grossRequestsPerSec": 3677.5,
+      "p95_latency": 0.09
+    },
+    "timestamp": "2025-08-09T07:56:23Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 10,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 294412
+      },
+      "grossRequestsPerSec": 98092.45,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:56:32Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 50,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 295688
+      },
+      "grossRequestsPerSec": 98511.87,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:56:35Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 100,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 306647
+      },
+      "grossRequestsPerSec": 102132.28,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:56:38Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 250,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 304868
+      },
+      "grossRequestsPerSec": 101626.78,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:56:41Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.02,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 907.67,
+      "totalData": 108920,
+      "sizePerRequest": 40,
+      "sizePerSec": 36293.46,
+      "errorDistribution": {
+        "operation was canceled": 20
+      },
+      "grossRequestsPerSec": 917.33,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:56:49Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.72,
+      "fastest": 0.01,
+      "average": 0.05,
+      "requestsPerSec": 840.67,
+      "totalData": 100880,
+      "sizePerRequest": 40,
+      "sizePerSec": 33593.13,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 856.48,
+      "p95_latency": 0.05
+    },
+    "timestamp": "2025-08-09T07:56:52Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.96,
+      "fastest": 0.01,
+      "average": 0.05,
+      "requestsPerSec": 930.0,
+      "totalData": 111600,
+      "sizePerRequest": 40,
+      "sizePerSec": 37161.67,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 962.34,
+      "p95_latency": 0.05
+    },
+    "timestamp": "2025-08-09T07:56:55Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 1.0,
+      "total": 3.0,
+      "slowest": 2.52,
+      "fastest": 0.01,
+      "average": 0.06,
+      "requestsPerSec": 860.33,
+      "totalData": 103240,
+      "sizePerRequest": 40,
+      "sizePerSec": 34376.03,
+      "errorDistribution": {},
+      "grossRequestsPerSec": 942.64,
+      "p95_latency": 0.05
+    },
+    "timestamp": "2025-08-09T07:56:58Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 158115
+      },
+      "grossRequestsPerSec": 52688.03,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:57:07Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 302527
+      },
+      "grossRequestsPerSec": 100773.62,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:57:10Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 392496
+      },
+      "grossRequestsPerSec": 130649.89,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:57:13Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 419106
+      },
+      "grossRequestsPerSec": 139569.91,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:57:16Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 1750.0,
+      "totalData": 210000,
+      "sizePerRequest": 40,
+      "sizePerSec": 69966.04,
+      "errorDistribution": {
+        "operation was canceled": 50
+      },
+      "grossRequestsPerSec": 1769.14,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:57:24Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 8449.33,
+      "totalData": 1013920,
+      "sizePerRequest": 40,
+      "sizePerSec": 337782.65,
+      "errorDistribution": {
+        "http2 error": 2,
+        "operation was canceled": 248
+      },
+      "grossRequestsPerSec": 8544.51,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:57:27Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 1.07,
+      "fastest": 0.01,
+      "average": 0.01,
+      "requestsPerSec": 9568.0,
+      "totalData": 1148160,
+      "sizePerRequest": 40,
+      "sizePerSec": 382400.33,
+      "errorDistribution": {
+        "http2 error": 2,
+        "operation was canceled": 248
+      },
+      "grossRequestsPerSec": 9676.58,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:57:30Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.99,
+      "total": 3.0,
+      "slowest": 2.69,
+      "fastest": 0.01,
+      "average": 0.02,
+      "requestsPerSec": 11468.0,
+      "totalData": 1376160,
+      "sizePerRequest": 40,
+      "sizePerSec": 458410.07,
+      "errorDistribution": {
+        "http2 error": 5,
+        "operation was canceled": 256
+      },
+      "grossRequestsPerSec": 11596.83,
+      "p95_latency": 0.01
+    },
+    "timestamp": "2025-08-09T07:57:33Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 10,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 109149
+      },
+      "grossRequestsPerSec": 36360.31,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:57:42Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 50,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 448490
+      },
+      "grossRequestsPerSec": 149369.14,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:57:45Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 100,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 555792
+      },
+      "grossRequestsPerSec": 185027.54,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:57:48Z"
+  },
+  {
+    "server": "puma__nginx",
+    "version": "puma version 6.6.0+nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "chunked",
+    "threads": 20,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 250,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 613450
+      },
+      "grossRequestsPerSec": 204303.89,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:57:51Z"
+  }
+]

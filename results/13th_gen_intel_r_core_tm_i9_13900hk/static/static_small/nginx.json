@@ -1,0 +1,837 @@
+[
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 32,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 85530006,
+      "sizePerRequest": 162,
+      "sizePerSec": 28492143.53,
+      "errorDistribution": {
+        "connection error": 1420,
+        "error reading a body from connection": 26,
+        "http2 error": 4805,
+        "operation was canceled": 2181
+      },
+      "grossRequestsPerSec": 178696.33,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:29:01Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 64,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 82613358,
+      "sizePerRequest": 162,
+      "sizePerSec": 27523937.65,
+      "errorDistribution": {
+        "connection error": 1371,
+        "error reading a body from connection": 25,
+        "http2 error": 4468,
+        "operation was canceled": 2264
+      },
+      "grossRequestsPerSec": 172629.81,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:29:04Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 128,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 81672624,
+      "sizePerRequest": 162,
+      "sizePerSec": 27209830.53,
+      "errorDistribution": {
+        "connection error": 1184,
+        "error reading a body from connection": 24,
+        "http2 error": 3993,
+        "operation was canceled": 2799
+      },
+      "grossRequestsPerSec": 170668.49,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:29:07Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 256,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 82757538,
+      "sizePerRequest": 162,
+      "sizePerSec": 27548609.88,
+      "errorDistribution": {
+        "connection error": 1178,
+        "error reading a body from connection": 23,
+        "http2 error": 3897,
+        "operation was canceled": 2918
+      },
+      "grossRequestsPerSec": 172805.09,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:29:10Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": true,
+    "concurrency": 512,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.01,
+      "slowest": 0.04,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 84393738,
+      "sizePerRequest": 162,
+      "sizePerSec": 28081908.2,
+      "errorDistribution": {
+        "connection error": 888,
+        "error reading a body from connection": 23,
+        "http2 error": 4382,
+        "operation was canceled": 2899
+      },
+      "grossRequestsPerSec": 176239.36,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:29:13Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 32,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 298390
+      },
+      "grossRequestsPerSec": 99416.58,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:29:19Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 64,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 297373
+      },
+      "grossRequestsPerSec": 99083.11,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:29:22Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 128,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 299884
+      },
+      "grossRequestsPerSec": 99851.91,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:29:25Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 256,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 296384
+      },
+      "grossRequestsPerSec": 98703.88,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:29:28Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 1,
+    "http2": false,
+    "concurrency": 512,
+    "rss_mb": 0.0,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 295275
+      },
+      "grossRequestsPerSec": 98405.29,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:29:31Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 32,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 151839036,
+      "sizePerRequest": 162,
+      "sizePerSec": 50582535.6,
+      "errorDistribution": {
+        "connection error": 1785,
+        "error reading a body from connection": 42,
+        "http2 error": 6074,
+        "operation was canceled": 7091
+      },
+      "grossRequestsPerSec": 317241.86,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:29:38Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 64,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 151359840,
+      "sizePerRequest": 162,
+      "sizePerSec": 50420135.65,
+      "errorDistribution": {
+        "connection error": 2300,
+        "error reading a body from connection": 43,
+        "http2 error": 8485,
+        "operation was canceled": 4068
+      },
+      "grossRequestsPerSec": 316217.8,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:29:41Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 128,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 160041906,
+      "sizePerRequest": 162,
+      "sizePerSec": 53293009.28,
+      "errorDistribution": {
+        "connection error": 2139,
+        "error reading a body from connection": 54,
+        "http2 error": 8402,
+        "operation was canceled": 5149
+      },
+      "grossRequestsPerSec": 334252.81,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:29:44Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 256,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 161110944,
+      "sizePerRequest": 162,
+      "sizePerSec": 53640286.29,
+      "errorDistribution": {
+        "connection error": 1787,
+        "error reading a body from connection": 37,
+        "http2 error": 8000,
+        "operation was canceled": 5984
+      },
+      "grossRequestsPerSec": 336456.57,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:29:48Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": true,
+    "concurrency": 512,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 161894862,
+      "sizePerRequest": 162,
+      "sizePerSec": 53916323.94,
+      "errorDistribution": {
+        "connection error": 1710,
+        "error reading a body from connection": 34,
+        "http2 error": 8204,
+        "operation was canceled": 5844
+      },
+      "grossRequestsPerSec": 338238.59,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:29:51Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 32,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 280302
+      },
+      "grossRequestsPerSec": 93368.69,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:29:57Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 64,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 328753
+      },
+      "grossRequestsPerSec": 109556.95,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:30:00Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 128,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 398164
+      },
+      "grossRequestsPerSec": 132671.77,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:30:03Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 256,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 398195
+      },
+      "grossRequestsPerSec": 132657.88,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:30:06Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 2,
+    "http2": false,
+    "concurrency": 512,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 429112
+      },
+      "grossRequestsPerSec": 142842.8,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:30:09Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 32,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 146222820,
+      "sizePerRequest": 162,
+      "sizePerSec": 48700161.29,
+      "errorDistribution": {
+        "connection error": 1537,
+        "error reading a body from connection": 32,
+        "http2 error": 6092,
+        "operation was canceled": 6755
+      },
+      "grossRequestsPerSec": 305429.58,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:30:16Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 64,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 203419512,
+      "sizePerRequest": 162,
+      "sizePerSec": 67757198.96,
+      "errorDistribution": {
+        "connection error": 2357,
+        "error reading a body from connection": 44,
+        "http2 error": 9054,
+        "operation was canceled": 8625
+      },
+      "grossRequestsPerSec": 424962.1,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:30:19Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 128,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.0,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 260704332,
+      "sizePerRequest": 162,
+      "sizePerSec": 86817932.99,
+      "errorDistribution": {
+        "connection error": 3872,
+        "error reading a body from connection": 82,
+        "http2 error": 13007,
+        "operation was canceled": 8719
+      },
+      "grossRequestsPerSec": 544505.24,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:30:22Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 256,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 295982910,
+      "sizePerRequest": 162,
+      "sizePerSec": 98536395.69,
+      "errorDistribution": {
+        "connection error": 4113,
+        "error reading a body from connection": 65,
+        "http2 error": 15306,
+        "operation was canceled": 9620
+      },
+      "grossRequestsPerSec": 618020.34,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:30:26Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 20,
+    "http2": true,
+    "concurrency": 512,
+    "results": {
+      "successRate": 0.98,
+      "total": 3.0,
+      "slowest": 0.01,
+      "fastest": 0.0,
+      "average": 0.0,
+      "requestsPerSec": 0.0,
+      "totalData": 327329748,
+      "sizePerRequest": 162,
+      "sizePerSec": 108977903.4,
+      "errorDistribution": {
+        "connection error": 2170,
+        "error reading a body from connection": 65,
+        "http2 error": 16244,
+        "operation was canceled": 13601
+      },
+      "grossRequestsPerSec": 683539.98,
+      "p95_latency": 0.0
+    },
+    "timestamp": "2025-08-09T07:30:29Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 32,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 267559
+      },
+      "grossRequestsPerSec": 89139.24,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:30:36Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 64,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 549188
+      },
+      "grossRequestsPerSec": 182813.41,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:30:39Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 128,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 598597
+      },
+      "grossRequestsPerSec": 199205.37,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:30:42Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 256,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.0,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 611271
+      },
+      "grossRequestsPerSec": 203650.15,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:30:45Z"
+  },
+  {
+    "server": "nginx",
+    "version": "nginx version: nginx/1.18.0 (Ubuntu)",
+    "test_case": "static_small",
+    "threads": 1,
+    "workers": 20,
+    "http2": false,
+    "concurrency": 512,
+    "results": {
+      "successRate": 0.0,
+      "total": 3.01,
+      "slowest": null,
+      "fastest": null,
+      "average": null,
+      "requestsPerSec": 0.0,
+      "totalData": 0,
+      "sizePerRequest": null,
+      "sizePerSec": 0.0,
+      "errorDistribution": {
+        "invalid HTTP version parsed": 613535
+      },
+      "grossRequestsPerSec": 204303.72,
+      "p95_latency": null
+    },
+    "timestamp": "2025-08-09T07:30:48Z"
+  }
+]
